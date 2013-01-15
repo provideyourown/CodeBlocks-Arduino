@@ -1,0 +1,6487 @@
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   2414         0
+.data     24   8388704
+.bss     188   8388728
+Total   2626
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     60   8388864
+.text   6192         0
+.bss     214   8388924
+Total   6466
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     60   8388864
+.text   6192         0
+.bss     214   8388924
+Total   6466
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     60   8388864
+.text   6192         0
+.bss     214   8388924
+Total   6466
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     60   8388864
+.text   6192         0
+.bss     214   8388924
+Total   6466
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     60   8388864
+.text   6192         0
+.bss     214   8388924
+Total   6466
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9816         0
+.bss      260   8389274
+Total   10486
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9816         0
+.bss      260   8389274
+Total   10486
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9816         0
+.bss      260   8389274
+Total   10486
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9816         0
+.bss      260   8389274
+Total   10486
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9816         0
+.bss      260   8389274
+Total   10486
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9816         0
+.bss      260   8389274
+Total   10486
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9816         0
+.bss      260   8389274
+Total   10486
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9766         0
+.bss      260   8389274
+Total   10436
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9766         0
+.bss      260   8389274
+Total   10436
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9782         0
+.bss      260   8389274
+Total   10452
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9782         0
+.bss      260   8389274
+Total   10452
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9798         0
+.bss      260   8389274
+Total   10468
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text    9788         0
+.bss      260   8389276
+Total   10460
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9816         0
+.bss      260   8389274
+Total   10486
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text    9852         0
+.bss      260   8389276
+Total   10524
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9848         0
+.bss      260   8389274
+Total   10518
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9848         0
+.bss      260   8389274
+Total   10518
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text   10190         0
+.bss      260   8389274
+Total   10860
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text   10216         0
+.bss      260   8389274
+Total   10886
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text   10216         0
+.bss      260   8389274
+Total   10886
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text   10178         0
+.bss      260   8389274
+Total   10848
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     414   8388864
+.text   10228         0
+.bss      260   8389278
+Total   10902
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     420   8388864
+.text   10218         0
+.bss      260   8389284
+Total   10898
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     420   8388864
+.text   10226         0
+.bss      260   8389284
+Total   10906
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     420   8388864
+.text   10226         0
+.bss      260   8389284
+Total   10906
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text    9984         0
+.bss      260   8389274
+Total   10654
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text   10328         0
+.bss      275   8389274
+Total   11013
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     410   8388864
+.text   10328         0
+.bss      275   8389274
+Total   11013
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10342         0
+.bss      275   8389276
+Total   11029
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10342         0
+.bss      275   8389276
+Total   11029
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     434   8388864
+.text   10598         0
+.bss      275   8389298
+Total   11307
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     434   8388864
+.text   10598         0
+.bss      275   8389298
+Total   11307
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     434   8388864
+.text   10574         0
+.bss      275   8389298
+Total   11283
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     434   8388864
+.text   10574         0
+.bss      275   8389298
+Total   11283
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text    9976         0
+.bss      277   8389276
+Total   10665
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text    9976         0
+.bss      277   8389276
+Total   10665
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text    9976         0
+.bss      277   8389276
+Total   10665
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10022         0
+.bss      277   8389276
+Total   10711
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10006         0
+.bss      277   8389276
+Total   10695
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10006         0
+.bss      277   8389276
+Total   10695
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10016         0
+.bss      277   8389276
+Total   10705
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10074         0
+.bss      277   8389276
+Total   10763
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10074         0
+.bss      277   8389276
+Total   10763
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10074         0
+.bss      277   8389276
+Total   10763
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10074         0
+.bss      277   8389276
+Total   10763
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   10074         0
+.bss      277   8389276
+Total   10763
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     666   8388864
+.text   10330         0
+.bss      277   8389530
+Total   11273
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     666   8388864
+.text   10342         0
+.bss      277   8389530
+Total   11285
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10342         0
+.bss      277   8389548
+Total   11303
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10342         0
+.bss      277   8389548
+Total   11303
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10342         0
+.bss      277   8389548
+Total   11303
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10342         0
+.bss      277   8389548
+Total   11303
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10508         0
+.bss      281   8389548
+Total   11473
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10496         0
+.bss      281   8389548
+Total   11461
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10496         0
+.bss      281   8389548
+Total   11461
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10496         0
+.bss      281   8389548
+Total   11461
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10742         0
+.bss      281   8389548
+Total   11707
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10976         0
+.bss      281   8389548
+Total   11941
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10976         0
+.bss      281   8389548
+Total   11941
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10440         0
+.bss      281   8389548
+Total   11405
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10440         0
+.bss      281   8389548
+Total   11405
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10440         0
+.bss      281   8389548
+Total   11405
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10436         0
+.bss      281   8389548
+Total   11401
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10408         0
+.bss      281   8389548
+Total   11373
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10436         0
+.bss      281   8389548
+Total   11401
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     684   8388864
+.text   10428         0
+.bss      281   8389548
+Total   11393
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     702   8388864
+.text   10428         0
+.bss      281   8389566
+Total   11411
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     702   8388864
+.text   10428         0
+.bss      281   8389566
+Total   11411
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     702   8388864
+.text   10428         0
+.bss      281   8389566
+Total   11411
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     702   8388864
+.text   10436         0
+.bss      281   8389566
+Total   11419
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     702   8388864
+.text   10436         0
+.bss      281   8389566
+Total   11419
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     702   8388864
+.text   10384         0
+.bss      281   8389566
+Total   11367
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     702   8388864
+.text   10384         0
+.bss      281   8389566
+Total   11367
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     700   8388864
+.text   10384         0
+.bss      281   8389564
+Total   11365
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     700   8388864
+.text   10722         0
+.bss      283   8389564
+Total   11705
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     700   8388864
+.text   10722         0
+.bss      283   8389564
+Total   11705
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     700   8388864
+.text   10722         0
+.bss      283   8389564
+Total   11705
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     702   8388864
+.text   10722         0
+.bss      281   8389566
+Total   11705
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     696   8388864
+.text   10722         0
+.bss      281   8389560
+Total   11699
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     694   8388864
+.text   10722         0
+.bss      281   8389558
+Total   11697
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   10722         0
+.bss      281   8389340
+Total   11479
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     478   8388864
+.text   10778         0
+.bss      281   8389342
+Total   11537
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     478   8388864
+.text   10778         0
+.bss      281   8389342
+Total   11537
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     478   8388864
+.text   10780         0
+.bss      281   8389342
+Total   11539
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     478   8388864
+.text   10780         0
+.bss      281   8389342
+Total   11539
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11008         0
+.bss      283   8389340
+Total   11767
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11008         0
+.bss      283   8389340
+Total   11767
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11116         0
+.bss      285   8389340
+Total   11877
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11116         0
+.bss      285   8389340
+Total   11877
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11100         0
+.bss      285   8389340
+Total   11861
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11078         0
+.bss      285   8389340
+Total   11839
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11078         0
+.bss      285   8389340
+Total   11839
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11116         0
+.bss      285   8389340
+Total   11877
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11086         0
+.bss      285   8389340
+Total   11847
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11086         0
+.bss      285   8389340
+Total   11847
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11094         0
+.bss      285   8389340
+Total   11855
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     476   8388864
+.text   11102         0
+.bss      285   8389340
+Total   11863
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     478   8388864
+.text   10990         0
+.bss      281   8389342
+Total   11749
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     478   8388864
+.text   11020         0
+.bss      281   8389342
+Total   11779
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     478   8388864
+.text   11036         0
+.bss      281   8389342
+Total   11795
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     478   8388864
+.text   11036         0
+.bss      281   8389342
+Total   11795
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     478   8388864
+.text   11044         0
+.bss      281   8389342
+Total   11803
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     478   8388864
+.text   11044         0
+.bss      281   8389342
+Total   11803
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     754   8388864
+.text   12820         0
+.bss      281   8389618
+Total   13855
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12820         0
+.bss      281   8389616
+Total   13853
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     750   8388864
+.text   12806         0
+.bss      283   8389614
+Total   13839
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     750   8388864
+.text   12806         0
+.bss      283   8389614
+Total   13839
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     750   8388864
+.text   12806         0
+.bss      283   8389614
+Total   13839
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     726   8388864
+.text   12864         0
+.bss      283   8389590
+Total   13873
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     726   8388864
+.text   12864         0
+.bss      283   8389590
+Total   13873
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     726   8388864
+.text   12864         0
+.bss      283   8389590
+Total   13873
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     726   8388864
+.text   12858         0
+.bss      283   8389590
+Total   13867
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     728   8388864
+.text   12858         0
+.bss      283   8389592
+Total   13869
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     728   8388864
+.text   12858         0
+.bss      283   8389592
+Total   13869
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     728   8388864
+.text   12858         0
+.bss      283   8389592
+Total   13869
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     730   8388864
+.text   12858         0
+.bss      283   8389594
+Total   13871
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     720   8388864
+.text   13126         0
+.bss      307   8389584
+Total   14153
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     720   8388864
+.text   13126         0
+.bss      307   8389584
+Total   14153
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   13176         0
+.bss      307   8389616
+Total   14235
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   13176         0
+.bss      307   8389616
+Total   14235
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12618         0
+.bss      307   8389616
+Total   13677
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   13220         0
+.bss      307   8389616
+Total   14279
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12686         0
+.bss      307   8389616
+Total   13745
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12686         0
+.bss      307   8389616
+Total   13745
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12694         0
+.bss      307   8389616
+Total   13753
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12694         0
+.bss      307   8389616
+Total   13753
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12694         0
+.bss      307   8389616
+Total   13753
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12694         0
+.bss      307   8389616
+Total   13753
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12694         0
+.bss      307   8389616
+Total   13753
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12694         0
+.bss      307   8389616
+Total   13753
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12694         0
+.bss      307   8389616
+Total   13753
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     752   8388864
+.text   12574         0
+.bss      307   8389616
+Total   13633
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.data     92   8388864
+.text   6470         0
+.bss     253   8388956
+Total   6815
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.data     92   8388864
+.text   6470         0
+.bss     253   8388956
+Total   6815
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     394   8388864
+.text   10556         0
+.bss      265   8389258
+Total   11215
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   10450         0
+.bss      265   8389248
+Total   11099
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.data    116   8388864
+.text   8172         0
+.bss     265   8388980
+Total   8553
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.data    116   8388864
+.text   8172         0
+.bss     265   8388980
+Total   8553
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   10464         0
+.bss      265   8389248
+Total   11113
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   10524         0
+.bss      265   8389248
+Total   11173
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   10568         0
+.bss      265   8389248
+Total   11217
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   10568         0
+.bss      265   8389248
+Total   11217
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   11156         0
+.bss      265   8389248
+Total   11805
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   11204         0
+.bss      265   8389248
+Total   11853
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   11164         0
+.bss      265   8389248
+Total   11813
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   11086         0
+.bss      265   8389248
+Total   11735
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   11062         0
+.bss      265   8389248
+Total   11711
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   11034         0
+.bss      265   8389248
+Total   11683
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     384   8388864
+.text   11156         0
+.bss      295   8389248
+Total   11835
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     420   8388864
+.text   11112         0
+.bss      265   8389284
+Total   11797
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     420   8388864
+.text   11112         0
+.bss      265   8389284
+Total   11797
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     420   8388864
+.text   11146         0
+.bss      265   8389284
+Total   11831
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   11100         0
+.bss      265   8389292
+Total   11793
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     438   8388864
+.text   11200         0
+.bss      265   8389302
+Total   11903
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11300         0
+.bss      265   8389324
+Total   12025
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11272         0
+.bss      265   8389324
+Total   11997
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11272         0
+.bss      265   8389324
+Total   11997
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11268         0
+.bss      265   8389324
+Total   11993
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11268         0
+.bss      265   8389324
+Total   11993
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11268         0
+.bss      265   8389324
+Total   11993
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11268         0
+.bss      265   8389324
+Total   11993
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11268         0
+.bss      265   8389324
+Total   11993
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11304         0
+.bss      265   8389324
+Total   12029
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11304         0
+.bss      265   8389324
+Total   12029
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11434         0
+.bss      265   8389324
+Total   12159
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11434         0
+.bss      265   8389324
+Total   12159
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     470   8388864
+.text   11484         0
+.bss      265   8389334
+Total   12219
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11434         0
+.bss      265   8389324
+Total   12159
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11412         0
+.bss      265   8389324
+Total   12137
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11282         0
+.bss      265   8389324
+Total   12007
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     468   8388864
+.text   11372         0
+.bss      265   8389332
+Total   12105
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     484   8388864
+.text   11422         0
+.bss      265   8389348
+Total   12171
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     492   8388864
+.text   11434         0
+.bss      265   8389356
+Total   12191
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     492   8388864
+.text   11448         0
+.bss      265   8389356
+Total   12205
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     494   8388864
+.text   11460         0
+.bss      265   8389358
+Total   12219
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11438         0
+.bss      265   8389324
+Total   12163
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11460         0
+.bss      265   8389324
+Total   12185
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11464         0
+.bss      265   8389324
+Total   12189
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11460         0
+.bss      265   8389324
+Total   12185
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11446         0
+.bss      265   8389324
+Total   12171
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11462         0
+.bss      265   8389324
+Total   12187
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11446         0
+.bss      265   8389324
+Total   12171
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11446         0
+.bss      265   8389324
+Total   12171
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11446         0
+.bss      265   8389324
+Total   12171
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11714         0
+.bss      271   8389324
+Total   12445
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     460   8388864
+.text   11750         0
+.bss      271   8389324
+Total   12481
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     400   8388864
+.text   11414         0
+.bss      287   8389264
+Total   12101
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     400   8388864
+.text   11414         0
+.bss      287   8389264
+Total   12101
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     400   8388864
+.text   11414         0
+.bss      287   8389264
+Total   12101
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     400   8388864
+.text   11414         0
+.bss      287   8389264
+Total   12101
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     400   8388864
+.text   11388         0
+.bss      287   8389264
+Total   12075
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     398   8388864
+.text   11388         0
+.bss      287   8389262
+Total   12073
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     396   8388864
+.text   11388         0
+.bss      287   8389260
+Total   12071
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     398   8388864
+.text   11732         0
+.bss      287   8389262
+Total   12417
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   11346         0
+.bss      307   8389276
+Total   12065
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     412   8388864
+.text   11346         0
+.bss      307   8389276
+Total   12065
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   11438         0
+.bss      307   8389292
+Total   12173
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   11438         0
+.bss      307   8389292
+Total   12173
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   11446         0
+.bss      307   8389292
+Total   12181
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13348         0
+.bss      324   8389292
+Total   14100
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13348         0
+.bss      324   8389292
+Total   14100
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13350         0
+.bss      324   8389292
+Total   14102
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13274         0
+.bss      324   8389292
+Total   14026
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13352         0
+.bss      324   8389292
+Total   14104
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13352         0
+.bss      324   8389292
+Total   14104
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13430         0
+.bss      324   8389292
+Total   14182
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13766         0
+.bss      324   8389292
+Total   14518
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13764         0
+.bss      324   8389292
+Total   14516
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13760         0
+.bss      324   8389292
+Total   14512
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     428   8388864
+.text   13760         0
+.bss      324   8389292
+Total   14512
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     430   8388864
+.text   13760         0
+.bss      324   8389294
+Total   14514
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     430   8388864
+.text   13760         0
+.bss      324   8389294
+Total   14514
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     58   8388864
+.text   6186         0
+.bss     214   8388922
+Total   6458
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1460         0
+.data      6   8388704
+.bss      19   8388710
+Total   1485
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   1398         0
+.data     44   8388704
+.bss      43   8388748
+Total   1485
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5862         0
+.data    352   8388704
+.bss      82   8389056
+Total   6296
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6368         0
+.data    352   8388704
+.bss      97   8389056
+Total   6817
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6428         0
+.data    352   8388704
+.bss     113   8389056
+Total   6893
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6368         0
+.data    352   8388704
+.bss      97   8389056
+Total   6817
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   7014         0
+.data    352   8388704
+.bss     114   8389056
+Total   7480
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   7014         0
+.data    352   8388704
+.bss     114   8389056
+Total   7480
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   7014         0
+.data    336   8388704
+.bss     114   8389040
+Total   7464
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   7014         0
+.data    352   8388704
+.bss     114   8389056
+Total   7480
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6970         0
+.data    352   8388704
+.bss     114   8389056
+Total   7436
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   7014         0
+.data    352   8388704
+.bss     114   8389056
+Total   7480
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6996         0
+.data    352   8388704
+.bss     110   8389056
+Total   7458
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     406   8388864
+.text   11958         0
+.bss      304   8389270
+Total   12668
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6996         0
+.data    352   8388704
+.bss     110   8389056
+Total   7458
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6950         0
+.data    352   8388704
+.bss     110   8389056
+Total   7412
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6916         0
+.data    352   8388704
+.bss     110   8389056
+Total   7378
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6996         0
+.data    352   8388704
+.bss     110   8389056
+Total   7458
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6996         0
+.data    352   8388704
+.bss     110   8389056
+Total   7458
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6992         0
+.data    352   8388704
+.bss     111   8389056
+Total   7455
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6996         0
+.data    352   8388704
+.bss     101   8389056
+Total   7449
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6996         0
+.data    352   8388704
+.bss     110   8389056
+Total   7458
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6368         0
+.data    352   8388704
+.bss      97   8389056
+Total   6817
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1460         0
+.data      6   8388704
+.bss      19   8388710
+Total   1485
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   2064         0
+.data     14   8388704
+.bss      49   8388718
+Total   2127
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   2164         0
+.data     52   8388704
+.bss      73   8388756
+Total   2289
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   6086         0
+.data    352   8388704
+.bss     112   8389056
+Total   6550
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   6086         0
+.data    352   8388704
+.bss     112   8389056
+Total   6550
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   5096         0
+.data    330   8388704
+.bss     129   8389034
+Total   5555
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   2188         0
+.data     52   8388704
+.bss      73   8388756
+Total   2313
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   2188         0
+.data     52   8388704
+.bss      73   8388756
+Total   2313
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   5084         0
+.data    330   8388704
+.bss     129   8389034
+Total   5543
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   2358         0
+.data     62   8388704
+.bss     129   8388766
+Total   2549
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   2984         0
+.data     66   8388704
+.bss     129   8388770
+Total   3179
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   3236         0
+.data     66   8388704
+.bss     129   8388770
+Total   3431
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   5056         0
+.data    330   8388704
+.bss     129   8389034
+Total   5515
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   3322         0
+.data     66   8388704
+.bss     129   8388770
+Total   3517
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   3366         0
+.data     66   8388704
+.bss     129   8388770
+Total   3561
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5356         0
+.data     88   8388704
+.bss     110   8388792
+Total   5554
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5356         0
+.data     88   8388704
+.bss     110   8388792
+Total   5554
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10272         0
+.bss      304   8389006
+Total   10718
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10272         0
+.bss      304   8389006
+Total   10718
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10226         0
+.bss      304   8389006
+Total   10672
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10258         0
+.bss      304   8389006
+Total   10704
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10270         0
+.bss      304   8389006
+Total   10716
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10250         0
+.bss      304   8389006
+Total   10696
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10268         0
+.bss      304   8389006
+Total   10714
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10268         0
+.bss      304   8389006
+Total   10714
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10268         0
+.bss      304   8389006
+Total   10714
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10198         0
+.bss      304   8389006
+Total   10644
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10228         0
+.bss      304   8389006
+Total   10674
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10220         0
+.bss      304   8389006
+Total   10666
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10202         0
+.bss      304   8389006
+Total   10648
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10224         0
+.bss      304   8389006
+Total   10670
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10214         0
+.bss      304   8389006
+Total   10660
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10204         0
+.bss      304   8389006
+Total   10650
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10198         0
+.bss      304   8389006
+Total   10644
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10192         0
+.bss      304   8389006
+Total   10638
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10202         0
+.bss      304   8389006
+Total   10648
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5298         0
+.data     88   8388704
+.bss     110   8388792
+Total   5496
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10202         0
+.bss      304   8389006
+Total   10648
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     142   8388864
+.text   10202         0
+.bss      304   8389006
+Total   10648
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     134   8388864
+.text   10202         0
+.bss      304   8388998
+Total   10640
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     132   8388864
+.text   10202         0
+.bss      304   8388996
+Total   10638
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    106   8388864
+.text   7380         0
+.bss     268   8388970
+Total   7754
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    106   8388864
+.text   7380         0
+.bss     268   8388970
+Total   7754
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    106   8388864
+.text   7358         0
+.bss     268   8388970
+Total   7732
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    106   8388864
+.text   7378         0
+.bss     268   8388970
+Total   7752
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    114   8388864
+.text   7448         0
+.bss     280   8388978
+Total   7842
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    114   8388864
+.text   7454         0
+.bss     280   8388978
+Total   7848
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    114   8388864
+.text   7678         0
+.bss     280   8388978
+Total   8072
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    114   8388864
+.text   7684         0
+.bss     280   8388978
+Total   8078
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    114   8388864
+.text   7684         0
+.bss     280   8388978
+Total   8078
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     132   8388864
+.text   10202         0
+.bss      304   8388996
+Total   10638
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     132   8388864
+.text   10202         0
+.bss      304   8388996
+Total   10638
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     130   8388864
+.text   10202         0
+.bss      304   8388994
+Total   10636
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     128   8388864
+.text   10202         0
+.bss      304   8388992
+Total   10634
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     128   8388864
+.text   10202         0
+.bss      304   8388992
+Total   10634
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     128   8388864
+.text   10222         0
+.bss      304   8388992
+Total   10654
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     134   8388864
+.text   10238         0
+.bss      312   8388998
+Total   10684
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     132   8388864
+.text   10238         0
+.bss      312   8388996
+Total   10682
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     132   8388864
+.text   10238         0
+.bss      312   8388996
+Total   10682
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     132   8388864
+.text   10124         0
+.bss      312   8388996
+Total   10568
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     132   8388864
+.text   10124         0
+.bss      312   8388996
+Total   10568
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     136   8388864
+.text   10124         0
+.bss      312   8389000
+Total   10572
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     136   8388864
+.text   10124         0
+.bss      312   8389000
+Total   10572
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     136   8388864
+.text   10140         0
+.bss      312   8389000
+Total   10588
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     136   8388864
+.text   10378         0
+.bss      312   8389000
+Total   10826
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     140   8388864
+.text   10440         0
+.bss      312   8389004
+Total   10892
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     146   8388864
+.text   10490         0
+.bss      312   8389010
+Total   10948
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     148   8388864
+.text   10476         0
+.bss      312   8389012
+Total   10936
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     148   8388864
+.text   10242         0
+.bss      312   8389012
+Total   10702
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     148   8388864
+.text   10258         0
+.bss      320   8389012
+Total   10726
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     148   8388864
+.text   10258         0
+.bss      320   8389012
+Total   10726
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     148   8388864
+.text   10258         0
+.bss      320   8389012
+Total   10726
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5340         0
+.data     94   8388704
+.bss     126   8388798
+Total   5560
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6042         0
+.data    104   8388704
+.bss     105   8388808
+Total   6251
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5754         0
+.data    104   8388704
+.bss     102   8388808
+Total   5960
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6042         0
+.data    104   8388704
+.bss     105   8388808
+Total   6251
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   6042         0
+.data    104   8388704
+.bss     105   8388808
+Total   6251
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10932         0
+.bss      299   8389020
+Total   11387
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10880         0
+.bss      299   8389020
+Total   11335
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10928         0
+.bss      299   8389020
+Total   11383
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10968         0
+.bss      299   8389020
+Total   11423
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10968         0
+.bss      299   8389020
+Total   11423
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10888         0
+.bss      299   8389020
+Total   11343
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     204   8388864
+.text   11164         0
+.bss      299   8389068
+Total   11667
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     204   8388864
+.text   11180         0
+.bss      299   8389068
+Total   11683
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     204   8388864
+.text   11180         0
+.bss      299   8389068
+Total   11683
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     204   8388864
+.text   11180         0
+.bss      299   8389068
+Total   11683
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     204   8388864
+.text   11220         0
+.bss      299   8389068
+Total   11723
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10944         0
+.bss      299   8389020
+Total   11399
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10944         0
+.bss      299   8389020
+Total   11399
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10944         0
+.bss      299   8389020
+Total   11399
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10942         0
+.bss      299   8389020
+Total   11397
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   10920         0
+.bss      299   8389020
+Total   11375
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   11150         0
+.bss      299   8389020
+Total   11605
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     156   8388864
+.text   11460         0
+.bss      299   8389020
+Total   11915
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     180   8388864
+.text   11382         0
+.bss      300   8389044
+Total   11862
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     186   8388864
+.text   11938         0
+.bss      376   8389050
+Total   12500
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     186   8388864
+.text   11938         0
+.bss      376   8389050
+Total   12500
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     186   8388864
+.text   11836         0
+.bss      376   8389050
+Total   12398
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     204   8388864
+.text   11892         0
+.bss      376   8389068
+Total   12472
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     234   8388864
+.text   11974         0
+.bss      376   8389098
+Total   12584
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     234   8388864
+.text   11974         0
+.bss      376   8389098
+Total   12584
+
+
+bin/Release/Luminesce.elf  :
+section    size      addr
+.data     234   8388864
+.text   11974         0
+.bss      376   8389098
+Total   12584
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5746         0
+.data    104   8388704
+.bss     103   8388808
+Total   5953
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5746         0
+.data    104   8388704
+.bss     103   8388808
+Total   5953
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5746         0
+.data    104   8388704
+.bss     103   8388808
+Total   5953
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5722         0
+.data    104   8388704
+.bss     103   8388808
+Total   5929
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5854         0
+.data    104   8388704
+.bss     103   8388808
+Total   6061
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   2014         0
+.data     44   8388704
+.bss      49   8388748
+Total   2107
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   2058         0
+.data     44   8388704
+.bss      49   8388748
+Total   2151
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   2000         0
+.data     44   8388704
+.bss      49   8388748
+Total   2093
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   2012         0
+.data     44   8388704
+.bss      49   8388748
+Total   2105
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   2012         0
+.data     44   8388704
+.bss      49   8388748
+Total   2105
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   2012         0
+.data     44   8388704
+.bss      49   8388748
+Total   2105
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   2012         0
+.data     44   8388704
+.bss      49   8388748
+Total   2105
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   2012         0
+.data     44   8388704
+.bss      49   8388748
+Total   2105
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5926         0
+.data    104   8388704
+.bss     106   8388808
+Total   6136
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5926         0
+.data    104   8388704
+.bss     106   8388808
+Total   6136
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size   addr
+.text     58      0
+Total     58
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1532         0
+.data      8   8388704
+.bss      19   8388712
+Total   1559
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    980         0
+.data      6   8388704
+.bss      19   8388710
+Total   1005
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    984         0
+.data      6   8388704
+.bss      19   8388710
+Total   1009
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    984         0
+.data      6   8388704
+.bss      19   8388710
+Total   1009
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    984         0
+.data      6   8388704
+.bss      19   8388710
+Total   1009
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    984         0
+.data      6   8388704
+.bss      19   8388710
+Total   1009
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1352         0
+.data      8   8388704
+.bss      19   8388712
+Total   1379
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1352         0
+.data      8   8388704
+.bss      19   8388712
+Total   1379
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1352         0
+.data      8   8388704
+.bss      19   8388712
+Total   1379
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1352         0
+.data      8   8388704
+.bss      19   8388712
+Total   1379
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5076         0
+.data    104   8388704
+.bss     105   8388808
+Total   5285
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4534         0
+.data     88   8388704
+.bss      83   8388792
+Total   4705
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   3584         0
+.data     74   8388704
+.bss     161   8388778
+Total   3819
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   3608         0
+.data     74   8388704
+.bss     265   8388778
+Total   3947
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   5996         0
+.data     74   8388704
+.bss     681   8388778
+Total   6751
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   3632         0
+.data     74   8388704
+.bss     369   8388778
+Total   4075
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   3576         0
+.data     40   8388704
+.bss     345   8388744
+Total   3961
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4094         0
+.data     76   8388704
+.bss     417   8388780
+Total   4587
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4084         0
+.data     76   8388704
+.bss     407   8388780
+Total   4567
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4204         0
+.data     74   8388704
+.bss     407   8388778
+Total   4685
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4590         0
+.data    108   8388704
+.bss     431   8388812
+Total   5129
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4590         0
+.data    104   8388704
+.bss     423   8388808
+Total   5117
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4552         0
+.data     74   8388704
+.bss     407   8388778
+Total   5033
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4590         0
+.data    104   8388704
+.bss     423   8388808
+Total   5117
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4590         0
+.data    104   8388704
+.bss     423   8388808
+Total   5117
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4590         0
+.data    104   8388704
+.bss     423   8388808
+Total   5117
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6318         0
+.bss     290   8388930
+Total   6674
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6318         0
+.bss     290   8388930
+Total   6674
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6318         0
+.bss     290   8388930
+Total   6674
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6334         0
+.bss     290   8388930
+Total   6690
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6334         0
+.bss     290   8388930
+Total   6690
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6334         0
+.bss     290   8388930
+Total   6690
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6366         0
+.bss     290   8388930
+Total   6722
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6366         0
+.bss     290   8388930
+Total   6722
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6366         0
+.bss     290   8388930
+Total   6722
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6366         0
+.bss     290   8388930
+Total   6722
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6366         0
+.bss     290   8388930
+Total   6722
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6366         0
+.bss     290   8388930
+Total   6722
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6382         0
+.bss     290   8388930
+Total   6738
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6366         0
+.bss     290   8388930
+Total   6722
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6874         0
+.bss     298   8388930
+Total   7238
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6874         0
+.bss     298   8388930
+Total   7238
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6874         0
+.bss     298   8388930
+Total   7238
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6956         0
+.bss     298   8388930
+Total   7320
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6992         0
+.bss     298   8388930
+Total   7356
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   6992         0
+.bss     298   8388930
+Total   7356
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   7010         0
+.bss     298   8388930
+Total   7374
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   7010         0
+.bss     298   8388930
+Total   7374
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     66   8388864
+.text   7010         0
+.bss     298   8388930
+Total   7374
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     98   8388864
+.text   7136         0
+.bss     298   8388962
+Total   7532
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     98   8388864
+.text   7150         0
+.bss     298   8388962
+Total   7546
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     98   8388864
+.text   7150         0
+.bss     298   8388962
+Total   7546
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    120   8388864
+.text   7258         0
+.bss     298   8388984
+Total   7676
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    120   8388864
+.text   7258         0
+.bss     298   8388984
+Total   7676
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    120   8388864
+.text   7284         0
+.bss     298   8388984
+Total   7702
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    136   8388864
+.text   7326         0
+.bss     298   8389000
+Total   7760
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    136   8388864
+.text   7314         0
+.bss     298   8389000
+Total   7748
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    136   8388864
+.text   7362         0
+.bss     298   8389000
+Total   7796
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    138   8388864
+.text   7356         0
+.bss     298   8389002
+Total   7792
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    138   8388864
+.text   7326         0
+.bss     298   8389002
+Total   7762
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    138   8388864
+.text   7326         0
+.bss     298   8389002
+Total   7762
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7508         0
+.bss     298   8389006
+Total   7948
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7524         0
+.bss     298   8389006
+Total   7964
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7524         0
+.bss     298   8389006
+Total   7964
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7524         0
+.bss     298   8389006
+Total   7964
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7524         0
+.bss     298   8389006
+Total   7964
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7524         0
+.bss     298   8389006
+Total   7964
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7524         0
+.bss     298   8389006
+Total   7964
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7524         0
+.bss     298   8389006
+Total   7964
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7524         0
+.bss     298   8389006
+Total   7964
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7524         0
+.bss     298   8389006
+Total   7964
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7524         0
+.bss     298   8389006
+Total   7964
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7530         0
+.bss     298   8389006
+Total   7970
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7530         0
+.bss     298   8389006
+Total   7970
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7526         0
+.bss     298   8389006
+Total   7966
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7526         0
+.bss     298   8389006
+Total   7966
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     68   8388864
+.text   7090         0
+.bss     298   8388932
+Total   7456
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7526         0
+.bss     298   8389006
+Total   7966
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7518         0
+.bss     298   8389006
+Total   7958
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7512         0
+.bss     298   8389006
+Total   7952
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7512         0
+.bss     298   8389006
+Total   7952
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7514         0
+.bss     314   8389006
+Total   7970
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7560         0
+.bss     314   8389006
+Total   8016
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7600         0
+.bss     314   8389006
+Total   8056
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7600         0
+.bss     314   8389006
+Total   8056
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7600         0
+.bss     314   8389006
+Total   8056
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7612         0
+.bss     314   8389006
+Total   8068
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7618         0
+.bss     314   8389006
+Total   8074
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7652         0
+.bss     315   8389006
+Total   8109
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data    142   8388864
+.text   7652         0
+.bss     315   8389006
+Total   8109
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4910         0
+.data    110   8388704
+.bss     303   8388814
+Total   5323
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4910         0
+.data    110   8388704
+.bss     303   8388814
+Total   5323
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4868         0
+.data    104   8388704
+.bss     207   8388808
+Total   5179
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4868         0
+.data    104   8388704
+.bss     207   8388808
+Total   5179
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4910         0
+.data    104   8388704
+.bss     303   8388808
+Total   5317
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   2134         0
+.data     10   8388704
+.bss      44   8388714
+Total   2188
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   2134         0
+.data     10   8388704
+.bss      44   8388714
+Total   2188
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text   1532         0
+.data      6   8388704
+.bss      19   8388710
+Total   1557
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    990         0
+.data      6   8388704
+.bss      19   8388710
+Total   1015
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    990         0
+.data      6   8388704
+.bss      19   8388710
+Total   1015
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    990         0
+.data      6   8388704
+.bss      19   8388710
+Total   1015
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    990         0
+.data      6   8388704
+.bss      19   8388710
+Total   1015
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    990         0
+.data      6   8388704
+.bss      19   8388710
+Total   1015
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     64   8388864
+.text   5738         0
+.bss     290   8388928
+Total   6092
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     64   8388864
+.text   5738         0
+.bss     290   8388928
+Total   6092
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    994         0
+.data      6   8388704
+.bss      19   8388710
+Total   1019
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     64   8388864
+.text   5738         0
+.bss     290   8388928
+Total   6092
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    994         0
+.data      6   8388704
+.bss      19   8388710
+Total   1019
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     64   8388864
+.text   5738         0
+.bss     290   8388928
+Total   6092
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    994         0
+.data      6   8388704
+.bss      19   8388710
+Total   1019
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    994         0
+.data      6   8388704
+.bss      19   8388710
+Total   1019
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     64   8388864
+.text   5738         0
+.bss     290   8388928
+Total   6092
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     64   8388864
+.text   5738         0
+.bss     290   8388928
+Total   6092
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    994         0
+.data      6   8388704
+.bss      19   8388710
+Total   1019
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     24   8388864
+.text   2570         0
+.bss     193   8388888
+Total   2787
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     24   8388864
+.text   2570         0
+.bss     193   8388888
+Total   2787
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    994         0
+.data      6   8388704
+.bss      19   8388710
+Total   1019
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.data     64   8388864
+.text   5738         0
+.bss     290   8388928
+Total   6092
+
+
+bin/Release/temp.elf  :
+section   size      addr
+.text    994         0
+.data      6   8388704
+.bss      19   8388710
+Total   1019
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3578         0
+.bss     200   8388896
+Total   3810
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3578         0
+.bss     200   8388896
+Total   3810
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     40   8388864
+.text   4082         0
+.bss     200   8388904
+Total   4322
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     40   8388864
+.text   4082         0
+.bss     200   8388904
+Total   4322
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     50   8388864
+.text   4138         0
+.bss     200   8388914
+Total   4388
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     58   8388864
+.text   4166         0
+.bss     200   8388922
+Total   4424
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     52   8388864
+.text   4138         0
+.bss     200   8388916
+Total   4390
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     52   8388864
+.text   4138         0
+.bss     200   8388916
+Total   4390
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     52   8388864
+.text   4138         0
+.bss     200   8388916
+Total   4390
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     52   8388864
+.text   4138         0
+.bss     200   8388916
+Total   4390
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     52   8388864
+.text   4138         0
+.bss     200   8388916
+Total   4390
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3578         0
+.bss     200   8388896
+Total   3810
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     52   8388864
+.text   4138         0
+.bss     200   8388916
+Total   4390
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     52   8388864
+.text   4158         0
+.bss     200   8388916
+Total   4410
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     32   8388864
+.text   3598         0
+.bss     200   8388896
+Total   3830
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     62   8388864
+.text   6440         0
+.bss     721   8388926
+Total   7223
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     62   8388864
+.text   6440         0
+.bss     721   8388926
+Total   7223
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     68   8388864
+.text   6452         0
+.bss     721   8388932
+Total   7241
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     66   8388864
+.text   6452         0
+.bss     723   8388930
+Total   7241
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     48   8388864
+.text   5518         0
+.bss     721   8388912
+Total   6287
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     48   8388864
+.text   5518         0
+.bss     721   8388912
+Total   6287
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     48   8388864
+.text   5518         0
+.bss     721   8388912
+Total   6287
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     48   8388864
+.text   5518         0
+.bss     721   8388912
+Total   6287
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     48   8388864
+.text   5524         0
+.bss     721   8388912
+Total   6293
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     48   8388864
+.text   5524         0
+.bss     721   8388912
+Total   6293
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     48   8388864
+.text   5524         0
+.bss     721   8388912
+Total   6293
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6408         0
+.bss     721   8388958
+Total   7223
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6420         0
+.bss     721   8388958
+Total   7235
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6818         0
+.bss     733   8388958
+Total   7645
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6818         0
+.bss     733   8388958
+Total   7645
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     42   8388864
+.text   5664         0
+.bss     733   8388906
+Total   6439
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6874         0
+.bss     733   8388958
+Total   7701
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6874         0
+.bss     733   8388958
+Total   7701
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6882         0
+.bss     733   8388958
+Total   7709
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6874         0
+.bss     733   8388958
+Total   7701
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6874         0
+.bss     733   8388958
+Total   7701
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6726         0
+.bss     733   8388958
+Total   7553
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6726         0
+.bss     733   8388958
+Total   7553
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6550         0
+.bss     733   8388958
+Total   7377
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6550         0
+.bss     733   8388958
+Total   7377
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6710         0
+.bss     733   8388958
+Total   7537
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   6698         0
+.bss     733   8388958
+Total   7525
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    114   8388864
+.text   7060         0
+.bss     735   8388978
+Total   7909
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    108   8388864
+.text   7060         0
+.bss     735   8388972
+Total   7903
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    112   8388864
+.text   7496         0
+.bss     735   8388976
+Total   8343
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    110   8388864
+.text   7542         0
+.bss     735   8388974
+Total   8387
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    108   8388864
+.text   7066         0
+.bss     735   8388972
+Total   7909
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    108   8388864
+.text   7056         0
+.bss     735   8388972
+Total   7899
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    108   8388864
+.text   7194         0
+.bss     739   8388972
+Total   8041
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    108   8388864
+.text   7194         0
+.bss     739   8388972
+Total   8041
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    346   8388864
+.text   8360         0
+.bss     748   8389210
+Total   9454
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    346   8388864
+.text   8360         0
+.bss     748   8389210
+Total   9454
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    346   8388864
+.text   8360         0
+.bss     748   8389210
+Total   9454
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    346   8388864
+.text   8368         0
+.bss     748   8389210
+Total   9462
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     346   8388864
+.text    9042         0
+.bss      748   8389210
+Total   10136
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     346   8388864
+.text    9042         0
+.bss      748   8389210
+Total   10136
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     364   8388864
+.text    9320         0
+.bss      748   8389228
+Total   10432
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     364   8388864
+.text    9320         0
+.bss      748   8389228
+Total   10432
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     364   8388864
+.text    9320         0
+.bss      748   8389228
+Total   10432
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     368   8388864
+.text    9398         0
+.bss      748   8389232
+Total   10514
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9422         0
+.bss      748   8389230
+Total   10536
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9422         0
+.bss      748   8389230
+Total   10536
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9422         0
+.bss      748   8389230
+Total   10536
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9386         0
+.bss      748   8389230
+Total   10500
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9366         0
+.bss      748   8389230
+Total   10480
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9402         0
+.bss      748   8389230
+Total   10516
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9366         0
+.bss      748   8389230
+Total   10480
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9422         0
+.bss      748   8389230
+Total   10536
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9416         0
+.bss      748   8389230
+Total   10530
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9402         0
+.bss      748   8389230
+Total   10516
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9402         0
+.bss      748   8389230
+Total   10516
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     366   8388864
+.text    9402         0
+.bss      748   8389230
+Total   10516
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     368   8388864
+.text    9378         0
+.bss      748   8389232
+Total   10494
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     368   8388864
+.text    9378         0
+.bss      748   8389232
+Total   10494
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     368   8388864
+.text    9386         0
+.bss      748   8389232
+Total   10502
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     368   8388864
+.text    9386         0
+.bss      748   8389232
+Total   10502
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     368   8388864
+.text    9398         0
+.bss      748   8389232
+Total   10514
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9454         0
+.bss      748   8389240
+Total   10578
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9442         0
+.bss      748   8389240
+Total   10566
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9466         0
+.bss      748   8389240
+Total   10590
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9466         0
+.bss      748   8389240
+Total   10590
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      749   8389240
+Total   10595
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      749   8389240
+Total   10595
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      749   8389240
+Total   10595
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      748   8389240
+Total   10594
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      749   8389240
+Total   10595
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     376   8388864
+.text    9470         0
+.bss      749   8389240
+Total   10595
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9108         0
+.bss      735   8389236
+Total   10215
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9108         0
+.bss      735   8389236
+Total   10215
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9096         0
+.bss      735   8389236
+Total   10203
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9000         0
+.bss      735   8389236
+Total   10107
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9000         0
+.bss      735   8389236
+Total   10107
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    282   8388864
+.text   5656         0
+.bss     214   8389146
+Total   6152
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data    284   8388864
+.text   5638         0
+.bss     214   8389148
+Total   6136
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     28   8388864
+.text   3928         0
+.bss     214   8388892
+Total   4170
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     28   8388864
+.text   3928         0
+.bss     214   8388892
+Total   4170
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     28   8388864
+.text   3928         0
+.bss     214   8388892
+Total   4170
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     28   8388864
+.text   3928         0
+.bss     214   8388892
+Total   4170
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     28   8388864
+.text   3928         0
+.bss     214   8388892
+Total   4170
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     28   8388864
+.text   3990         0
+.bss     214   8388892
+Total   4232
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     28   8388864
+.text   3990         0
+.bss     214   8388892
+Total   4232
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     28   8388864
+.text   3990         0
+.bss     214   8388892
+Total   4232
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     28   8388864
+.text   3990         0
+.bss     214   8388892
+Total   4232
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.data     28   8388864
+.text   3990         0
+.bss     214   8388892
+Total   4232
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9098         0
+.bss      735   8389236
+Total   10205
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     370   8388864
+.text    9098         0
+.bss      737   8389234
+Total   10205
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9098         0
+.bss      735   8389236
+Total   10205
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9098         0
+.bss      735   8389236
+Total   10205
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9100         0
+.bss      735   8389236
+Total   10207
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9100         0
+.bss      735   8389236
+Total   10207
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9104         0
+.bss      735   8389236
+Total   10211
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9104         0
+.bss      735   8389236
+Total   10211
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9110         0
+.bss      735   8389236
+Total   10217
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9110         0
+.bss      735   8389236
+Total   10217
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     372   8388864
+.text    9110         0
+.bss      735   8389236
+Total   10217
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     386   8388864
+.text    9232         0
+.bss      735   8389250
+Total   10353
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     386   8388864
+.text    9232         0
+.bss      735   8389250
+Total   10353
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     386   8388864
+.text    9240         0
+.bss      736   8389250
+Total   10362
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     386   8388864
+.text    9240         0
+.bss      736   8389250
+Total   10362
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     386   8388864
+.text    9240         0
+.bss      736   8389250
+Total   10362
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     386   8388864
+.text    9240         0
+.bss      736   8389250
+Total   10362
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     68   8388864
+.text   6516         0
+.bss     732   8388932
+Total   7316
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     68   8388864
+.text   6516         0
+.bss     732   8388932
+Total   7316
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     68   8388864
+.text   7162         0
+.bss     748   8388932
+Total   7978
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     68   8388864
+.text   7162         0
+.bss     748   8388932
+Total   7978
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     68   8388864
+.text   7162         0
+.bss     748   8388932
+Total   7978
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     68   8388864
+.text   7150         0
+.bss     748   8388932
+Total   7966
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     68   8388864
+.text   7150         0
+.bss     748   8388932
+Total   7966
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     68   8388864
+.text   7152         0
+.bss     748   8388932
+Total   7968
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     76   8388864
+.text   7174         0
+.bss     748   8388940
+Total   7998
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     76   8388864
+.text   7174         0
+.bss     748   8388940
+Total   7998
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     98   8388864
+.text   7252         0
+.bss     748   8388962
+Total   8098
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     98   8388864
+.text   7268         0
+.bss     748   8388962
+Total   8114
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   7234         0
+.bss     748   8388948
+Total   8066
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   7256         0
+.bss     748   8388948
+Total   8088
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   7272         0
+.bss     748   8388948
+Total   8104
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   7228         0
+.bss     748   8388948
+Total   8060
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   7228         0
+.bss     748   8388948
+Total   8060
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   7172         0
+.bss     748   8388948
+Total   8004
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   7188         0
+.bss     748   8388948
+Total   8020
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   7038         0
+.bss     748   8388948
+Total   7870
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   6608         0
+.bss     748   8388948
+Total   7440
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   6608         0
+.bss     748   8388948
+Total   7440
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     84   8388864
+.text   6598         0
+.bss     748   8388948
+Total   7430
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     96   8388864
+.text   6620         0
+.bss     748   8388960
+Total   7464
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data    110   8388864
+.text   6650         0
+.bss     748   8388974
+Total   7508
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data    110   8388864
+.text   6650         0
+.bss     748   8388974
+Total   7508
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     376   8388864
+.text   10970         0
+.bss      748   8389240
+Total   12094
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     376   8388864
+.text   10968         0
+.bss      748   8389240
+Total   12092
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     376   8388864
+.text   10968         0
+.bss      748   8389240
+Total   12092
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     380   8388864
+.text   11704         0
+.bss      756   8389244
+Total   12840
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     380   8388864
+.text   11664         0
+.bss      756   8389244
+Total   12800
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     380   8388864
+.text   11664         0
+.bss      756   8389244
+Total   12800
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     380   8388864
+.text   11716         0
+.bss      756   8389244
+Total   12852
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     380   8388864
+.text   11716         0
+.bss      756   8389244
+Total   12852
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     386   8388864
+.text   11786         0
+.bss      756   8389250
+Total   12928
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     386   8388864
+.text   11786         0
+.bss      756   8389250
+Total   12928
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     386   8388864
+.text   11786         0
+.bss      756   8389250
+Total   12928
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data      96   8388864
+.text   10260         0
+.bss      776   8388960
+Total   11132
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     104   8388864
+.text   10276         0
+.bss      776   8388968
+Total   11156
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     104   8388864
+.text   10282         0
+.bss      776   8388968
+Total   11162
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     104   8388864
+.text   10282         0
+.bss      776   8388968
+Total   11162
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     104   8388864
+.text   10282         0
+.bss      776   8388968
+Total   11162
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     104   8388864
+.text   10282         0
+.bss      776   8388968
+Total   11162
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     104   8388864
+.text   10282         0
+.bss      776   8388968
+Total   11162
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     104   8388864
+.text   10282         0
+.bss      776   8388968
+Total   11162
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     108   8388864
+.text   10118         0
+.bss      776   8388972
+Total   11002
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     108   8388864
+.text   10140         0
+.bss      777   8388972
+Total   11025
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     108   8388864
+.text   10140         0
+.bss      777   8388972
+Total   11025
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     112   8388864
+.text   10166         0
+.bss      777   8388976
+Total   11055
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     112   8388864
+.text   10164         0
+.bss      777   8388976
+Total   11053
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     120   8388864
+.text   10222         0
+.bss      777   8388984
+Total   11119
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     120   8388864
+.text   10228         0
+.bss      777   8388984
+Total   11125
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     120   8388864
+.text   10202         0
+.bss      780   8388984
+Total   11102
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     120   8388864
+.text   10202         0
+.bss      780   8388984
+Total   11102
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     120   8388864
+.text   10202         0
+.bss      780   8388984
+Total   11102
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     122   8388864
+.text   10416         0
+.bss      780   8388986
+Total   11318
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     126   8388864
+.text   10420         0
+.bss      780   8388990
+Total   11326
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     126   8388864
+.text   10386         0
+.bss      780   8388990
+Total   11292
+
+
+bin/Release/ultrasound_test.elf  :
+section    size      addr
+.data     126   8388864
+.text   10386         0
+.bss      780   8388990
+Total   11292
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     52   8388864
+.text   5488         0
+.bss     714   8388916
+Total   6254
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     48   8388864
+.text   5508         0
+.bss     714   8388912
+Total   6270
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     48   8388864
+.text   5510         0
+.bss     714   8388912
+Total   6272
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     44   8388864
+.text   5518         0
+.bss     714   8388908
+Total   6276
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     44   8388864
+.text   6090         0
+.bss     714   8388908
+Total   6848
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     48   8388864
+.text   6570         0
+.bss     714   8388912
+Total   7332
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     46   8388864
+.text   6570         0
+.bss     714   8388910
+Total   7330
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     50   8388864
+.text   5532         0
+.bss     714   8388914
+Total   6296
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     50   8388864
+.text   5534         0
+.bss     714   8388914
+Total   6298
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    100   8388864
+.text   5546         0
+.bss     714   8388964
+Total   6360
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   5538         0
+.bss     714   8388958
+Total   6346
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     94   8388864
+.text   5586         0
+.bss     714   8388958
+Total   6394
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    100   8388864
+.text   5902         0
+.bss     714   8388964
+Total   6716
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    102   8388864
+.text   5946         0
+.bss     714   8388966
+Total   6762
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    102   8388864
+.text   5938         0
+.bss     714   8388966
+Total   6754
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    102   8388864
+.text   5938         0
+.bss     714   8388966
+Total   6754
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    132   8388864
+.text   5878         0
+.bss     714   8388996
+Total   6724
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    132   8388864
+.text   5938         0
+.bss     714   8388996
+Total   6784
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    132   8388864
+.text   5946         0
+.bss     714   8388996
+Total   6792
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    132   8388864
+.text   5930         0
+.bss     714   8388996
+Total   6776
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    132   8388864
+.text   5938         0
+.bss     714   8388996
+Total   6784
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    144   8388864
+.text   5970         0
+.bss     714   8389008
+Total   6828
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    144   8388864
+.text   6016         0
+.bss     714   8389008
+Total   6874
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    146   8388864
+.text   6044         0
+.bss     714   8389010
+Total   6904
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    146   8388864
+.text   6044         0
+.bss     714   8389010
+Total   6904
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    146   8388864
+.text   6000         0
+.bss     714   8389010
+Total   6860
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    146   8388864
+.text   6000         0
+.bss     714   8389010
+Total   6860
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    168   8388864
+.text   5884         0
+.bss     714   8389032
+Total   6766
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data    168   8388864
+.text   5884         0
+.bss     714   8389032
+Total   6766
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     50   8388864
+.text   6386         0
+.bss     714   8388914
+Total   7150
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     50   8388864
+.text   6408         0
+.bss     714   8388914
+Total   7172
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     50   8388864
+.text   6408         0
+.bss     714   8388914
+Total   7172
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     50   8388864
+.text   6408         0
+.bss     714   8388914
+Total   7172
+
+
+bin/Release/nokia_test.elf  :
+section   size      addr
+.data     50   8388864
+.text   6408         0
+.bss     714   8388914
+Total   7172
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     384   8388864
+.text    9260         0
+.bss      736   8389248
+Total   10380
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     384   8388864
+.text    9214         0
+.bss      736   8389248
+Total   10334
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     384   8388864
+.text    9224         0
+.bss      736   8389248
+Total   10344
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     370   8388864
+.text    9164         0
+.bss      736   8389234
+Total   10270
+
+
+bin/Release/touch_test.elf  :
+section    size      addr
+.data     370   8388864
+.text    9176         0
+.bss      736   8389234
+Total   10282
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.text   2666         0
+.data     10   8388704
+.bss      41   8388714
+Total   2717
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     52   8388864
+.text   6642         0
+.bss     259   8388916
+Total   6953
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.text   2666         0
+.data     10   8388704
+.bss      41   8388714
+Total   2717
+
+
+bin/Release/ultrasound_test.elf  :
+section   size      addr
+.data     52   8388864
+.text   6642         0
+.bss     259   8388916
+Total   6953
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4920         0
+.data    104   8388704
+.bss     301   8388808
+Total   5325
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4852         0
+.data    104   8388704
+.bss     295   8388808
+Total   5251
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4900         0
+.data    104   8388704
+.bss     296   8388808
+Total   5300
+
+
+bin/Release/Luminesce.elf  :
+section   size      addr
+.text   4890         0
+.data    104   8388704
+.bss     290   8388808
+Total   5284
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.text   2666         0
+.data     10   8388704
+.bss      41   8388714
+Total   2717
+
+
+bin/Release/touch_test.elf  :
+section   size      addr
+.text   2666         0
+.data     10   8388704
+.bss      41   8388714
+Total   2717
+
+
+bin/Release/test2.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/test2.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/test2.elf  :
+section   size      addr
+.text   1544         0
+.data      6   8388704
+.bss      19   8388710
+Total   1569
+
+
+bin/Release/test2.elf  :
+section   size      addr
+.data     24   8388864
+.text   2926         0
+.bss     193   8388888
+Total   3143
+
+
+bin/Release/test2.elf  :
+section   size      addr
+.data     24   8388864
+.text   2926         0
+.bss     193   8388888
+Total   3143
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     24   8388864
+.text   2902         0
+.bss     193   8388888
+Total   3119
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1526         0
+.data      6   8388704
+.bss      19   8388710
+Total   1551
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1544         0
+.data      6   8388704
+.bss      19   8388710
+Total   1569
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1544         0
+.data      6   8388704
+.bss      19   8388710
+Total   1569
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     24   8388864
+.text   2926         0
+.bss     193   8388888
+Total   3143
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1544         0
+.data      6   8388704
+.bss      19   8388710
+Total   1569
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1544         0
+.data      6   8388704
+.bss      19   8388710
+Total   1569
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1544         0
+.data      6   8388704
+.bss      19   8388710
+Total   1569
+
+
+bin/Release/test.elf  :
+section   size      addr
+.data     24   8388864
+.text   2926         0
+.bss     193   8388888
+Total   3143
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1544         0
+.data      6   8388704
+.bss      19   8388710
+Total   1569
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1544         0
+.data      6   8388704
+.bss      19   8388710
+Total   1569
+
+
+bin/Release/test.elf  :
+section   size      addr
+.text   1544         0
+.data      6   8388704
+.bss      19   8388710
+Total   1569
+
+
+.objs/test.elf  :
+section     size      addr
+.text        890         0
+.bss           9   8388704
+.stab       9300         0
+.stabstr   22542         0
+Total      32741
+
+
+.objs/test.elf  :
+section     size      addr
+.text        890         0
+.bss           9   8388704
+.stab       9300         0
+.stabstr   22542         0
+Total      32741
+
+
+bin/Release/test.elf  :
+section     size      addr
+.text        890         0
+.bss           9   8388704
+.stab       9300         0
+.stabstr   22542         0
+Total      32741
+
+

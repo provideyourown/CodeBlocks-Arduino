@@ -1,0 +1,400 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+// Code::Blocks new project wizard script
+//
+// Project: Arduino project
+// Author:  Stanley Huang <stanleyhuangyc@gmail.com>
+//
+// Changes by Scott Daniels:
+// added cpu_freq to CreateTarget
+// "      "             as a target option
+// added support for Leonardo & ATtiny chips to SetupProject
+// added cpu_freq to other boards in SetupProject
+// 
+// changed pb_avrsize to use python script to evaluate memory constraints and provide meaningful report
+// added max_size & max_sram to AddCompilerOption & supported chips
+//
+// added extra post-proc cmd for Leonardo boards to put them in bootloader mode:
+//    ~/.codeblocks/start_leonardo_bootmode.py ${UPLOAD_PORT}
+//    ref - http://nicholaskell.wordpress.com/tag/leonardo/
+//
+// added protocol option to CreateTarget and assoc. boards
+// added AvrProgrammer combo to wizard.xrc & OnLeaveProcessorChoice()
+//    -- for Attiny boards, the protocol = programmer. This value is used for those boards
+//
+////////////////////////////////////////////////////////////////////////////////
+
+
+// Global Vars
+AvrUseProgrammer <- false;
+AvrProgrammer <- "";
+AvrUpload <- false;
+AvrPort <- ""
+AvrLss <- false;         // produce extended list file from ELF output?
+AvrMap <- false;         // produce Symbol Map file from ELF output?
+AvrExtMem <- false;      // Locate .data in on-board SRAM, or external SRAM
+AvrExtMemAddr <- ""      // The external memory address
+BoardIndex <- 0;
+Board <- _T("");
+BaudRate <- _T("57600");
+//Variant <- _T("standard");
+Libs <- _T("");
+
+// directories
+ArduinoDir <- _T("$(HOME)/.codeblocks/arduino");
+HelpersDir <- _T("$(HOME)/.codeblocks/helpers");
+ArdusimDir <- _T("$(HOME)/.codeblocks/ardusim");
+
+
+function BeginWizard()
+{
+    local wiz_type = Wizard.GetWizardType();
+
+    if (wiz_type == wizProject)
+    {
+        local intro_msg = _T(" Welcome to the Arduino Project Wizard\n\n" +
+                             "This wizard will guide you to create a new Arduino project.\nIf you want to be able to upload the built binary to your board,\nbe sure to choose a correct COM port which your board is on.\n\n" +
+                             "When you 're ready to proceed, please click \"Next\"\n\n" +
+                             "This wizard is created by Stanley Huang.\nFor updates, please visit http://cb.arduinodev.com\nFor suggestions and bug reports, please send to\n<stanleyhuangyc@gmail.com>");
+
+
+        Wizard.AddInfoPage(_T("Intro"), intro_msg);
+        Wizard.AddPage(_T("processorChoice"));
+        Wizard.AddProjectPathPage();
+        Wizard.AddCompilerPage(_T("GNU AVR GCC Compiler"), _T("avr*"), true, true);
+    }
+    else
+        print(wiz_type);
+}
+
+function GetFilesDir()
+{
+    local result = _T("arduino/files");
+    return result;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Processor choice page
+////////////////////////////////////////////////////////////////////////////////
+
+
+function OnLeave_processorChoice(fwd)
+{
+    if (fwd)
+    {
+
+        BoardIndex = Wizard.GetComboboxSelection(_T("comboboxBoard"));
+        Board = Wizard.GetComboboxStringSelection(_T("comboboxBoard"));
+        AvrProgrammer = Wizard.GetComboboxStringSelection(_T("avr_programmer"));
+        AvrUpload = Wizard.IsCheckboxChecked(_T("checkboxUpload"));
+        AvrPort = Wizard.GetComboboxStringSelection(_T("uploadPort"));
+        AvrMap = Wizard.IsCheckboxChecked(_T("checkboxMap"));
+        AvrLss = Wizard.IsCheckboxChecked(_T("checkboxLss"));
+        AvrExtMem = Wizard.IsCheckboxChecked(_T("checkboxExtMem"));
+        AvrExtMemAddr = Wizard.GetTextControlValue(_T("textctrlExtMem"));
+
+				if (IsNull(AvrProgrammer))
+				  AvrProgrammer = _T("arduino");
+
+				if (IsNull(AvrPort))
+				  AvrUpload = false;
+
+    }
+    return true;
+}
+
+function AddSourceFile(project, targetName, filename)
+{
+		local file;
+		file = project.AddFile(targetName, filename, true, true, 50);
+		file.AddBuildTarget(targetName);
+		file.compile = true;
+		file.link = true;
+}
+
+function AddCoreSourceCode(project, targetName)
+{
+		AddSourceFile(project, targetName, _T("cores/WString.cpp"));
+		AddSourceFile(project, targetName, _T("cores/WMath.cpp"));
+		AddSourceFile(project, targetName, _T("cores/wiring.c"));
+		AddSourceFile(project, targetName, _T("cores/wiring_digital.c"));
+		AddSourceFile(project, targetName, _T("cores/wiring_analog.c"));
+		AddSourceFile(project, targetName, _T("cores/wiring_pulse.c"));
+		AddSourceFile(project, targetName, _T("cores/wiring_shift.c"));
+		AddSourceFile(project, targetName, _T("cores/HID.cpp"));
+		AddSourceFile(project, targetName, _T("cores/HardwareSerial.cpp"));
+		AddSourceFile(project, targetName, _T("cores/new.cpp"));
+		AddSourceFile(project, targetName, _T("cores/Print.cpp"));
+		AddSourceFile(project, targetName, _T("cores/Stream.cpp"));
+		AddSourceFile(project, targetName, _T("cores/Tone.cpp"));
+		AddSourceFile(project, targetName, _T("cores/USBCore.cpp"));
+		AddSourceFile(project, targetName, _T("cores/WInterrupts.c"));
+		AddSourceFile(project, targetName, _T("cores/CDC.cpp"));
+		AddSourceFile(project, targetName, _T("cores/IPAddress.cpp"));
+		AddSourceFile(project, targetName, _T("cores/main.cpp"));
+		AddSourceFile(project, targetName, _T("libraries/libraries.cpp"));
+		AddSourceFile(project, targetName, _T("sketch.cpp"));
+}
+
+function CreateTarget(project, targetName, processor, variant, protocol, baudrate, cpu_freq, max_size, max_sram)
+{
+		local target = project.AddBuildTarget(targetName);
+    // Linker options
+        local lo_map = ::wxString();
+        local lo_extmem = ::wxString();
+
+    // Post Build steps
+    local pb_avrsize = ::wxString();
+    local pb_eephex = ::wxString();
+    local pb_hex = ::wxString();
+    local pb_eepbin = ::wxString();
+    local pb_bin = ::wxString();
+    local pb_lss = ::wxString();
+    local build_core1 = ::wxString();
+    local build_core2 = ::wxString();
+    local optimized = false;
+		
+    if (!IsNull(target))
+        {
+		        // Post build commands
+		        pb_eephex = _T("avr-objcopy --no-change-warnings -j .eeprom --change-section-lma .eeprom=0 -O ihex $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).eep.hex");
+		        pb_hex = _T("avr-objcopy -O ihex -R .eeprom -R .eesafe $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).hex");
+		        pb_eepbin = _T("avr-objcopy --no-change-warnings -j .eeprom --change-section-lma .eeprom=0 -O binary $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).eep.bin");
+		        pb_bin = _T("avr-objcopy -O binary -R .eeprom -R .eesafe $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).bin");
+		        
+		
+		        if ( PLATFORM == PLATFORM_MSW )
+		            pb_lss = _T("cmd /c \"avr-objdump -h -S $(TARGET_OUTPUT_FILE) > $(TARGET_OUTPUT_FILE).lss\"");
+		        else
+		            pb_lss = _T("avr-objdump -h -S $(TARGET_OUTPUT_FILE) > $(TARGET_OUTPUT_FILE).lss");
+		
+		        // avr-size is compiled with patches under winavr to produce a fancy output
+		        // which displays the percentage of memory used by the application for the
+		        // target mcu. However, this option is not available under standard binutils
+		        // avr-size.
+		        if (PLATFORM_MSW == PLATFORM)
+		            pb_avrsize = _T("avr-size --mcu=$(MCU) --format=avr $(TARGET_OUTPUT_FILE)");
+		        else {
+		            //sdd - replaced: pb_avrsize = _T("avr-size $(TARGET_OUTPUT_FILE)");
+                // call python func to calc size constraints
+                pb_avrsize = _T("avr-size -A $(TARGET_OUTPUT_FILE) >> " + HelpersDir + "/avrsize_dump.txt; python " + HelpersDir + "/test_avr_size.py -f " + HelpersDir + "/avrsize_dump.txt -m $(MAX_SIZE) -s $(MAX_SRAM)");
+            }
+		
+		        // Setup the linker options
+		        lo_map = _T("-Wl,-Map=$(TARGET_OUTPUT_FILE).map,--cref");
+		
+		        // Get external memory start address
+		        lo_extmem = _T("-Wl,--section-start=.data=") + AvrExtMemAddr;
+		
+				    // Project compiler options
+		        target.AddCompilerOption(_T("-mmcu=$(MCU)"));
+		        
+            // create the processor compiler flag algorithmically - form: __AVR_ATxxxxx__
+            // slice doesn't appear to work in codeblocks. We'll have to do it the hard way! - sdd
+            //target.AddCompilerOption("-D__AVR_AT" + processor.slice(2) + "__");
+
+
+		        if (processor.Matches(_T("atmega1280"))) {
+							target.AddCompilerOption(_T("-D__AVR_ATmega1280__"));
+							optimized = true;
+		        } else if (processor.Matches(_T("atmega2560"))) {
+							target.AddCompilerOption(_T("-D__AVR_ATmega2560__"));
+							optimized = true;
+		        } else if (processor.Matches(_T("atmega168"))) {
+							target.AddCompilerOption(_T("-D__AVR_ATmega168__"));
+		        } else if (processor.Matches(_T("atmega328p"))) {
+							target.AddCompilerOption(_T("-D__AVR_ATmega328P__"));
+		        } else if (processor.Matches(_T("atmega32u4"))) {
+							target.AddCompilerOption(_T("-D__AVR_ATmega32U4__"));
+		        } else if (processor.Matches(_T("attiny85"))) {
+							target.AddCompilerOption(_T("-D__AVR_ATtiny85__"));
+		        } else if (processor.Matches(_T("attiny84"))) {
+							target.AddCompilerOption(_T("-D__AVR_ATtiny84__"));
+		        }
+            
+
+		        
+
+		       	target.AddIncludeDir(_T("$(ARDUINO_DIR)/hardware/arduino/cores/arduino"));
+						target.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries"));
+         		target.AddIncludeDir(_T("$(ARDUINO_DIR)/hardware/arduino/variants/" + variant));
+
+		
+		        // Project linker options
+		        target.AddLinkerOption(_T("-mmcu=$(MCU)"));
+		
+		        if (AvrMap)
+		            target.AddLinkerOption(lo_map);
+		
+		        if (AvrExtMem)
+		            target.AddLinkerOption(lo_extmem);
+		
+		        // Project post-build steps
+						target.AddCommandsAfterBuild(pb_hex);
+						target.AddCommandsAfterBuild(pb_eephex);
+		        target.AddCommandsAfterBuild(pb_avrsize);
+		
+		        if ( AvrLss )
+		            target.AddCommandsAfterBuild(pb_lss);
+		            
+            target.AddLinkerOption(_T("-s"));
+
+            OptimizationsOn(target, Wizard.GetCompilerID());
+            target.SetTargetType(ttConsoleOnly);
+            target.SetTargetFilenameGenerationPolicy(tgfpPlatformDefault, tgfpNone);
+            target.SetOutputFilename(Wizard.GetReleaseOutputDir() + Wizard.GetProjectName() + _T(".elf"));
+            
+						target.SetVar(_T("BOARD"), targetName, false);
+						target.SetVar(_T("MCU"), processor, false);
+						target.SetVar(_T("UPLOAD_BAUDRATE"), baudrate, false);
+						target.SetVar(_T("UPLOAD_PORT"), AvrPort, false);
+						target.SetVar(_T("ARDUINO_DIR"), ArduinoDir, false);
+            target.SetVar(_T("CPU_FREQ"), cpu_freq, false);
+            target.SetVar(_T("MAX_SIZE"), max_size, false);
+            target.SetVar(_T("MAX_SRAM"), max_sram, false);
+
+
+            // use the programmer specified for boards that require a programmer
+		        if (protocol.Matches(_T(""))) {
+              protocol = AvrProgrammer;
+            }
+            target.SetVar(_T("PROTOCOL"), protocol, false);
+
+          	target.AddCompilerOption(_T("-DF_CPU=$(CPU_FREQ)"));
+            // add compiler option to differentiate this IDE as codeblocks, so we can also compile on the ArduinoIDE using a different include path
+		        target.AddCompilerOption(_T("-DCODE_BLOCKS"));
+
+						if (optimized) {
+								target.RemoveCompilerOption(_T("-Os"));
+								target.AddCompilerOption(_T("-O2"));
+						} else {
+								target.AddCompilerOption(_T("-Os"));
+						}
+
+				    if (AvrUpload)
+				    {
+                if (variant.Matches(_T("leonardo"))) { // set leonardo into bootloader mode by lowering the baudrate
+                //  target.AddCommandsAfterBuild(_T("python ~/.codeblocks/start_leonardo_bootmode.py ${UPLOAD_PORT}"));
+                }
+				        target.AddCommandsAfterBuild(_T("avrdude -V -C /etc/avrdude.conf -p${MCU} -c${PROTOCOL} -P${UPLOAD_PORT} -b${UPLOAD_BAUDRATE} -D -Uflash:w:${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}.elf.hex:i"));
+                if (variant.Matches(_T("leonardo"))) { // exit leonardo bootloader mode by restoring the serial port baudrate
+                //  target.AddCommandsAfterBuild(_T("python ~/.codeblocks/end_leonardo_bootmode.py ${UPLOAD_PORT} ${UPLOAD_BAUDRATE}"));
+                }
+				    }
+
+						AddCoreSourceCode(project, targetName);
+						
+        }
+        
+
+}
+
+function SetSimTarget(project, target)
+{
+   	target.AddIncludeDir(_T("$(ARDUINO_DIR)/arduino/cores"));
+		target.AddIncludeDir(_T("$(ARDUINO_DIR)/arduino/variants/standard")); // support only the std variant in simulation right now
+		target.AddIncludeDir(_T("$(ARDUINO_DIR)/include"));
+		target.AddCompilerOption(_T("-DARDUSIM"));
+		target.AddCompilerOption(_T("-DENABLE_API_NAME"));
+		target.AddCompilerOption(_T("-D__AVR_ATmega328P__"));
+		target.SetVar(_T("ARDUINO_DIR"), ArdusimDir, false);
+    target.SetTargetType(ttConsoleOnly);
+    target.SetTargetFilenameGenerationPolicy(tgfpPlatformDefault, tgfpNone);
+    //target.SetOutputFilename(Wizard.GetDebugOutputDir() + Wizard.GetProjectName());
+		target.SetCompilerID(_T("GCC"));
+}
+
+function SetupProject(project)
+{
+// defined per uC -	project.AddCompilerOption(_T("-DF_CPU=16000000L")); // default
+	project.AddCompilerOption(_T("-DARDUINO=101"));
+	project.AddCompilerOption(_T("-fno-exceptions"));
+	project.AddCompilerOption(_T("-ffunction-sections"));
+	project.AddCompilerOption(_T("-fdata-sections"));
+	project.AddCompilerOption(_T("-x c++"));
+	project.AddCompilerOption(_T("-s"));
+	project.AddLinkerOption(_T("-Wl,--gc-sections"));
+	
+	project.AddIncludeDir(_T("."));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/EEPROM"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/Ethernet"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/Firmata"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/Flash"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/LCD4884"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/LCD4Bit_mod"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/LiquidCrystal"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/SD"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/SD/utility"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/Servo"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/SevenSegment"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/SoftwareSerial"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/SPI"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/Stepper"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/TinyGPS"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/Wire"));
+	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/Wire/utility"));
+	
+	project.AddCompilerOption(_T("-DUSE_EEPROM=0"));
+	project.AddCompilerOption(_T("-DUSE_ETHERNET=0"));
+	project.AddCompilerOption(_T("-DUSE_FIRMATA=0"));
+	project.AddCompilerOption(_T("-DUSE_LCD=0"));
+	project.AddCompilerOption(_T("-DUSE_LCD4884=0"));
+	project.AddCompilerOption(_T("-DUSE_OBD=0"));
+	project.AddCompilerOption(_T("-DUSE_SD=0"));
+	project.AddCompilerOption(_T("-DUSE_SERVO=0"));
+	project.AddCompilerOption(_T("-DUSE_SOFTSERIAL=0"));
+	project.AddCompilerOption(_T("-DUSE_SPI=0"));
+	project.AddCompilerOption(_T("-DUSE_STEPPER=0"));
+	project.AddCompilerOption(_T("-DUSE_TINYGPS=0"));
+	project.AddCompilerOption(_T("-DUSE_WIRE=0"));
+	
+	WarningsOn(project, Wizard.GetCompilerID());
+
+// Data taken from boards.txt, Arduino 1.0.1
+//                      Name                              chip name         variant                   protocol       upload rate   cpu speed         max_size      max_sram
+	CreateTarget(project, _T("Tiny84 @ 16MHz"),             _T("attiny84"),   _T("tinyX4"),             _T(""),        _T("19200"),  _T("16000000L"),  _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny84 @ 8MHz"),              _T("attiny84"),   _T("tinyX4"),             _T(""),        _T("19200"),  _T("8000000L"),   _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny84 @ 1MHz"),              _T("attiny84"),   _T("tinyX4"),             _T(""),        _T("19200"),  _T("1000000L"),   _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny85 @ 16MHz"),             _T("attiny85"),   _T("tinyX5"),             _T(""),        _T("19200"),  _T("16000000L"),  _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny85 @ 8MHz"),              _T("attiny85"),   _T("tinyX5"),             _T(""),        _T("19200"),  _T("8000000L"),   _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny85 @ 1MHz"),              _T("attiny85"),   _T("tinyX5"),             _T(""),        _T("19200"),  _T("1000000L"),   _T("8192"),   _T("512"));
+	CreateTarget(project, _T("ATmega328p @ 8MHz"),          _T("atmega328p"), _T("standard"),           _T(""),        _T("19200"),  _T("8000000L"),   _T("32768"),  _T("2048"));
+	CreateTarget(project, _T("ATmega328p @ 16MHz"),         _T("atmega328p"), _T("standard"),           _T(""),        _T("19200"),  _T("16000000L"),  _T("32768"),  _T("2048"));
+
+	CreateTarget(project, _T("Arduino Leonardo"),           _T("atmega32u4"), _T("leonardo"),           _T("avr109"),  _T("57600"),   _T("16000000L"), _T("28672"),  _T("2560"));
+	
+	CreateTarget(project, _T("Arduino Uno"),                _T("atmega328p"), _T("standard"),           _T("arduino"), _T("115200"),  _T("16000000L"), _T("32256"),  _T("2048"));
+	CreateTarget(project, _T("Arduino Duemilanove (328)"),  _T("atmega328p"), _T("standard"),           _T("arduino"), _T("57600"),   _T("16000000L"), _T("30720"),  _T("2048"));
+	CreateTarget(project, _T("Arduino Duemilanove (168)"),  _T("atmega168"),  _T("standard"),           _T("arduino"), _T("19200"),   _T("16000000L"), _T("14336"),  _T("1024"));
+	CreateTarget(project, _T("Arduino Nano (328)"),         _T("atmega328p"), _T("eightanaloginputs"),  _T("arduino"), _T("57600"),   _T("16000000L"), _T("30720"),  _T("2048"));
+	CreateTarget(project, _T("Arduino Nano (168)"),         _T("atmega168"),  _T("eightanaloginputs"),  _T("arduino"), _T("19200"),   _T("16000000L"), _T("14336"),  _T("1024"));
+	CreateTarget(project, _T("Arduino Mini (328)"),         _T("atmega328p"), _T("eightanaloginputs"),  _T("arduino"), _T("57600"),   _T("16000000L"), _T("28672"),  _T("2048"));
+	CreateTarget(project, _T("Arduino Mini (168)"),         _T("atmega168"),  _T("eightanaloginputs"),  _T("arduino"), _T("19200"),   _T("16000000L"), _T("14336"),  _T("1024"));
+	CreateTarget(project, _T("Arduino Pro Mini (328)"),     _T("atmega328p"), _T("standard"),           _T("arduino"), _T("57600"),   _T("16000000L"), _T("30720"),  _T("2048"));
+	CreateTarget(project, _T("Arduino Pro Mini (168)"),     _T("atmega168p"), _T("standard"),           _T("arduino"), _T("19200"),   _T("16000000L"), _T("14336"),  _T("1024"));
+	CreateTarget(project, _T("Arduino Mega 2560/ADK"),      _T("atmega2560"), _T("mega"),               _T("stk500v2"),_T("115200"),  _T("16000000L"), _T("258048"), _T("8192"));
+	CreateTarget(project, _T("Arduino Mega 1280"),          _T("atmega1280"), _T("mega"),               _T("arduino"), _T("57600"),   _T("16000000L"), _T("126976"), _T("4096"));
+
+	CreateTarget(project, _T("Arduino Ethernet"),           _T("atmega328p"), _T("standard"),           _T("arduino"), _T("115200"),  _T("16000000L"), _T("32256"),  _T("2048"));
+	CreateTarget(project, _T("Arduino Lilypad"),            _T("atmega328p"), _T("standard"),           _T("arduino"), _T("57600"),   _T("8000000L"),  _T("30720"),  _T("2048"));
+	
+	// Debug build target
+	local target = project.GetBuildTarget(Wizard.GetDebugName());
+	if (!IsNull(target))
+	{
+	    DebugSymbolsOn(target, Wizard.GetCompilerID());
+			SetSimTarget(project, target);
+	}
+	
+	// Release build target
+	target = project.GetBuildTarget(Wizard.GetReleaseName());
+	if (!IsNull(target))
+	{
+	    OptimizationsOn(target, Wizard.GetCompilerID());
+			SetSimTarget(project, target);
+	}
+	project.RenameBuildTarget(0, _T("Simulator - Debug"));
+	project.RenameBuildTarget(1, _T("Simulator - Release"));
+	
+	return true;
+}

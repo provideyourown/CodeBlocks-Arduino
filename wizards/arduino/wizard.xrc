@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxPanel" name="processorChoice">
+		<style>wxTAB_TRAVERSAL</style>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="textChoice1">
+							<label>Arduino Series</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP|wxEXPAND</flag>
+						<border>3</border>
+						<object class="wxComboBox" name="comboboxBoard">
+							<style>wxCB_DROPDOWN</style>
+							<value>Standard (AVR)</value>
+							<content>
+								<item>Standard (AVR)</item>
+							</content>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<object class="wxCheckBox" name="checkboxExtMem">
+							<tooltip>Use external memory SRAM instead of internal SRAM. \nThis option will pass information to the linker which will relocate the \n.data section of the application to a memory address that you specify.\n\nSee the processor datasheet for the address that you should use.</tooltip>
+							<label>Use external memory</label>
+							<checked>0</checked>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxTextCtrl" name="textctrlExtMem">
+							<value>0x801100</value>
+							<maxlength>0</maxlength>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND|wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticLine" name="m_staticline5">
+					<style>wxLI_HORIZONTAL</style>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<object class="wxCheckBox" name="checkboxMap">
+					<tooltip>Create an extended symbol file from the .elf output file</tooltip>
+					<label>Create symbol map file (.map)</label>
+					<checked>0</checked>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<object class="wxCheckBox" name="checkboxLss">
+					<label>Create extended listing file (.lss)</label>
+					<checked>0</checked>
+				</object>
+			</object>
+
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticText" name="programmer_choice">
+					<tooltip>Specify a programmer when uploading to ATtiny chips</tooltip>
+					<label>Programmer used:</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<object class="wxComboBox" name="avr_programmer">
+					<style>wxCB_DROPDOWN</style>
+					<content>
+            <item>arduino</item>
+						<item>avrisp</item>
+						<item>avrispmkII</item>
+						<item>usbtiny</item>
+						<item>usbasp</item>
+            <item>buspirate</item>
+            <item>stk500</item>
+            <item>dasa</item>
+					</content>
+				</object>
+			</object>
+
+
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<object class="wxCheckBox" name="checkboxUpload">
+					<tooltip>Automatically upload to Arudino board after project built</tooltip>
+					<label>Upload to board after compiliation</label>
+					<checked>1</checked>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<object class="wxComboBox" name="uploadPort">
+					<style>wxCB_DROPDOWN</style>
+					<content>
+            <item>/dev/ttyACM0</item>
+						<item>/dev/ttyUSB0</item>
+						<item>/dev/ttyUSB1</item>
+						<item>/dev/ttyUSB2</item>
+						<item>/dev/ttyUSB3</item>
+					</content>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND | wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticLine" name="m_staticline11">
+					<style>wxLI_HORIZONTAL</style>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticText" name="m_staticText2">
+					<label>Libraries</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL</flag>
+				<border>5</border>
+				<object class="wxCheckListBox" name="m_checkList1">
+					<style>wxLB_MULTIPLE|wxLB_SORT</style>
+					<size>226,100</size>
+					<content>
+						<item>EEPROM</item>
+						<item>Ethernet</item>
+						<item>Firmata</item>
+						<item>Flash</item>
+						<item>LCD4884</item>
+						<item>SD</item>
+						<item>Servo</item>
+						<item>SevenSegment</item>
+						<item>SoftwareSerial</item>
+						<item>SPI</item>
+						<item>Stepper</item>
+						<item>TinyGPS</item>
+						<item>Wire</item>
+					</content>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
