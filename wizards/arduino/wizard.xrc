@@ -218,7 +218,7 @@
 				<option>0</option>
 				<flag>wxALL</flag>
 				<border>5</border>
-				<object class="wxCheckListBox" name="m_checkList1">
+				<object class="wxCheckListBox" name="libraryIncludeList">
 					<style>wxLB_MULTIPLE|wxLB_SORT</style>
 					<size>226,100</size>
 					<content>

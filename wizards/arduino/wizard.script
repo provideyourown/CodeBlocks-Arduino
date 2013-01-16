@@ -34,6 +34,11 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 
+
+// For documentation on writing CodeBlocks scripts:
+//  -- for language, see - http://www.squirrel-lang.org/
+//  -- for commands, see - http://wiki.codeblocks.org/index.php?title=Scripting_commands
+
 // Global Vars
 AvrProgrammer <- "";
 AvrUpload <- false;
@@ -48,6 +53,8 @@ Board <- _T("");
 BaudRate <- _T("57600");
 //Variant <- _T("standard");
 Libs <- _T("");
+
+
 
 // directories
 ArduinoDir <- _T("$(HOME)/.codeblocks/arduino");
@@ -100,7 +107,7 @@ function GetFilesDir()
 function OnLeave_processorChoice(fwd)
 {
     if (fwd)
-    {
+    { // for documentation on these funcs, see - http://wiki.codeblocks.org/index.php?title=Wizard_Scripting_Commands
 
         BoardIndex = Wizard.GetComboboxSelection(_T("comboboxBoard"));
         Board = Wizard.GetComboboxStringSelection(_T("comboboxBoard"));
@@ -112,6 +119,9 @@ function OnLeave_processorChoice(fwd)
         AvrArduinoLink = Wizard.IsCheckboxChecked(_T("checkboxArduinoLink"));
         AvrExtMem = Wizard.IsCheckboxChecked(_T("checkboxExtMem"));
         AvrExtMemAddr = Wizard.GetTextControlValue(_T("textctrlExtMem"));
+
+        Libs = Wizard.GetListboxStringSelections(_T("libraryIncludeList"));
+
 
 				if (IsNull(AvrProgrammer))
 				  AvrProgrammer = _T("arduino");
@@ -389,6 +399,15 @@ function SetupProject(project)
 	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/Wire"));
 	project.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries/Wire/utility"));
 	
+
+// for info on using arrays, see - http://wiki.codeblocks.org/index.php?title=Scripting_commands
+//  local libIncludes = ::wxArrayString();
+//  libIncludes = GetArrayFromString(Libs, _T(";"), 1); // see http://fossies.org/unix/misc/codeblocks-10.05-src.tar.gz:a/codeblocks-10.05-release/src/plugins/projectsimporter/msvc7workspaceloader.cpp
+//  foreach (i,val in libIncludes)
+//  {
+//    project.AddCompilerOption(_T("-D"+val+"=1"));
+//  }
+
 	project.AddCompilerOption(_T("-DUSE_EEPROM=0"));
 	project.AddCompilerOption(_T("-DUSE_ETHERNET=0"));
 	project.AddCompilerOption(_T("-DUSE_FIRMATA=0"));
