@@ -3,7 +3,11 @@
 // Code::Blocks new project wizard script
 //
 // Project: Arduino project
-// Author:  Stanley Huang <stanleyhuangyc@gmail.com>
+// Original Author:  Stanley Huang <stanleyhuangyc@gmail.com>
+// Original Website:  http://www.arduinodev.com/codeblocks/
+//
+// New Author:  Scott Daniels
+// New Website: https://github.com/provideyourown/CodeBlocks-Arduino
 //
 // Changes by Scott Daniels:
 // added cpu_freq to CreateTarget
@@ -22,11 +26,15 @@
 // added AvrProgrammer combo to wizard.xrc & OnLeaveProcessorChoice()
 //    -- for Attiny boards, the protocol = programmer. This value is used for those boards
 //
+// Jan 15/2013:
+//  Fixed linker problem preventing correct code generation for ATtiny chips
+//    -- added option for Arduino compatible linking
+//    -- added second link that is the same as ArduinoIDE - smaller and correct for ATtiny
+//    -- changed default configuration to lss generation (disassembly)
 ////////////////////////////////////////////////////////////////////////////////
 
 
 // Global Vars
-AvrUseProgrammer <- false;
 AvrProgrammer <- "";
 AvrUpload <- false;
 AvrPort <- ""
@@ -34,6 +42,7 @@ AvrLss <- false;         // produce extended list file from ELF output?
 AvrMap <- false;         // produce Symbol Map file from ELF output?
 AvrExtMem <- false;      // Locate .data in on-board SRAM, or external SRAM
 AvrExtMemAddr <- ""      // The external memory address
+AvrArduinoLink <- true;  // override default codeblocks link statement in the post-processor with the same as used by ArduinoIDE. Necessary for ATtiny support. Codesize is also smaller.
 BoardIndex <- 0;
 Board <- _T("");
 BaudRate <- _T("57600");
@@ -46,6 +55,7 @@ HelpersDir <- _T("$(HOME)/.codeblocks/helpers");
 ArdusimDir <- _T("$(HOME)/.codeblocks/ardusim");
 
 
+
 function BeginWizard()
 {
     local wiz_type = Wizard.GetWizardType();
@@ -53,9 +63,18 @@ function BeginWizard()
     if (wiz_type == wizProject)
     {
         local intro_msg = _T(" Welcome to the Arduino Project Wizard\n\n" +
-                             "This wizard will guide you to create a new Arduino project.\nIf you want to be able to upload the built binary to your board,\nbe sure to choose a correct COM port which your board is on.\n\n" +
+
+                             "This wizard will guide you to create a new Arduino project.\n" +
+                             "If you want to be able to upload the built binary to your board,\n" +
+                             "be sure to choose a correct COM port which your board is on.\n\n" +
                              "When you 're ready to proceed, please click \"Next\"\n\n" +
-                             "This wizard is created by Stanley Huang.\nFor updates, please visit http://cb.arduinodev.com\nFor suggestions and bug reports, please send to\n<stanleyhuangyc@gmail.com>");
+
+                             "This wizard was originally created by Stanley Huang <stanleyhuangyc@gmail.com>\n" +
+                             "at http://www.arduinodev.com/codeblocks/.\n" +
+                             "with updates for ATtiny support and other enhancements by Scott Daniels\n" +
+                             "For updates, visit https://github.com/provideyourown/CodeBlocks-Arduino\n" +
+                             "For suggestions and bug reports, please submit them at: \n" +
+                             "http://provideyourown.com/contact/");
 
 
         Wizard.AddInfoPage(_T("Intro"), intro_msg);
@@ -90,6 +109,7 @@ function OnLeave_processorChoice(fwd)
         AvrPort = Wizard.GetComboboxStringSelection(_T("uploadPort"));
         AvrMap = Wizard.IsCheckboxChecked(_T("checkboxMap"));
         AvrLss = Wizard.IsCheckboxChecked(_T("checkboxLss"));
+        AvrArduinoLink = Wizard.IsCheckboxChecked(_T("checkboxArduinoLink"));
         AvrExtMem = Wizard.IsCheckboxChecked(_T("checkboxExtMem"));
         AvrExtMemAddr = Wizard.GetTextControlValue(_T("textctrlExtMem"));
 
@@ -153,6 +173,19 @@ function CreateTarget(project, targetName, processor, variant, protocol, baudrat
     local build_core1 = ::wxString();
     local build_core2 = ::wxString();
     local optimized = false;
+    local pb_ar = ::wxString();
+    local pb_arlink = ::wxString();
+
+// These are what we want our post-processor steps to look like:
+//avr-ar rcs .objs/libcore.a  .objs/cores/*.o
+//avr-gcc -mmcu=attiny84 -Wl,--gc-sections -Os   -o $(TARGET_OUTPUT_FILE) .objs/sketch.o .objs/libcore.a  -lc -lm
+//avr-objcopy -O ihex -R .eeprom -R .eesafe $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).hex
+//avr-objcopy --no-change-warnings -j .eeprom --change-section-lma .eeprom=0 -O ihex $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).eep.hex
+//avr-objdump -h --source --demangle --wide $(TARGET_OUTPUT_FILE) > $(TARGET_OUTPUT_FILE).lss
+//avr-size -A $(TARGET_OUTPUT_FILE) >> $(HOME)/.codeblocks/helpers/avrsize_dump.txt; python $(HOME)/.codeblocks/helpers/test_avr_size.py -f $(HOME)/.codeblocks/helpers/avrsize_dump.txt -m $(MAX_SIZE) -s $(MAX_SRAM)
+//avrdude -V -C /etc/avrdude.conf -p${MCU} -c${PROTOCOL} -P${UPLOAD_PORT} -b${UPLOAD_BAUDRATE} -D -Uflash:w:${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}.elf.hex:i
+
+
 		
     if (!IsNull(target))
         {
@@ -162,17 +195,32 @@ function CreateTarget(project, targetName, processor, variant, protocol, baudrat
 		        pb_eepbin = _T("avr-objcopy --no-change-warnings -j .eeprom --change-section-lma .eeprom=0 -O binary $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).eep.bin");
 		        pb_bin = _T("avr-objcopy -O binary -R .eeprom -R .eesafe $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).bin");
 		        
-		
-		        if ( PLATFORM == PLATFORM_MSW )
-		            pb_lss = _T("cmd /c \"avr-objdump -h -S $(TARGET_OUTPUT_FILE) > $(TARGET_OUTPUT_FILE).lss\"");
+            // arduino linking commands		
+            // create the core library object
+		        if ( PLATFORM == PLATFORM_MSW ) // windoz
+              pb_ar = _T("avr-ar rcs .objs\\libcore.a  .objs\\cores/*.o");
+            else
+              pb_ar = _T("avr-ar rcs .objs/libcore.a  .objs/cores/*.o");
+            // do the link - this is from the Arduino command-line Make utility - https://github.com/sudar/Arduino-Makefile
+		        if ( PLATFORM == PLATFORM_MSW ) // windoz
+              pb_arlink = _T("avr-gcc -mmcu=attiny84 -Wl,--gc-sections -Os   -o $(TARGET_OUTPUT_FILE) .objs\\sketch.o .objs\\libcore.a  -lc -lm");
+            else
+              pb_arlink = _T("avr-gcc -mmcu=attiny84 -Wl,--gc-sections -Os   -o $(TARGET_OUTPUT_FILE) .objs/sketch.o .objs/libcore.a  -lc -lm");
+            
+
+
+
+
+		        if ( PLATFORM == PLATFORM_MSW ) // windoz
+		            pb_lss = _T("cmd /c \"avr-objdump -h --source --demangle --wide $(TARGET_OUTPUT_FILE) > $(TARGET_OUTPUT_FILE).lss\""); // options were -h -S
 		        else
-		            pb_lss = _T("avr-objdump -h -S $(TARGET_OUTPUT_FILE) > $(TARGET_OUTPUT_FILE).lss");
+		            pb_lss = _T("avr-objdump -h --source --demangle --wide $(TARGET_OUTPUT_FILE) > $(TARGET_OUTPUT_FILE).lss"); // options were -h -S
 		
 		        // avr-size is compiled with patches under winavr to produce a fancy output
 		        // which displays the percentage of memory used by the application for the
 		        // target mcu. However, this option is not available under standard binutils
 		        // avr-size.
-		        if (PLATFORM_MSW == PLATFORM)
+		        if (PLATFORM_MSW == PLATFORM) // windoz
 		            pb_avrsize = _T("avr-size --mcu=$(MCU) --format=avr $(TARGET_OUTPUT_FILE)");
 		        else {
 		            //sdd - replaced: pb_avrsize = _T("avr-size $(TARGET_OUTPUT_FILE)");
@@ -229,6 +277,13 @@ function CreateTarget(project, targetName, processor, variant, protocol, baudrat
 		        if (AvrExtMem)
 		            target.AddLinkerOption(lo_extmem);
 		
+            // replacement linker steps (add to post-build)
+            if (AvrArduinoLink)
+            {
+						  target.AddCommandsAfterBuild(pb_ar);
+						  target.AddCommandsAfterBuild(pb_arlink);
+            }
+
 		        // Project post-build steps
 						target.AddCommandsAfterBuild(pb_hex);
 						target.AddCommandsAfterBuild(pb_eephex);
@@ -276,7 +331,7 @@ function CreateTarget(project, targetName, processor, variant, protocol, baudrat
                 if (variant.Matches(_T("leonardo"))) { // set leonardo into bootloader mode by lowering the baudrate
                 //  target.AddCommandsAfterBuild(_T("python ~/.codeblocks/start_leonardo_bootmode.py ${UPLOAD_PORT}"));
                 }
-				        target.AddCommandsAfterBuild(_T("avrdude -V -C /etc/avrdude.conf -p${MCU} -c${PROTOCOL} -P${UPLOAD_PORT} -b${UPLOAD_BAUDRATE} -D -Uflash:w:${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}.elf.hex:i"));
+				        target.AddCommandsAfterBuild(_T("avrdude -V -C /etc/avrdude.conf -p${MCU} -c${PROTOCOL} -P${UPLOAD_PORT} -b${UPLOAD_BAUDRATE} -Uflash:w:${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}.elf.hex:i"));
                 if (variant.Matches(_T("leonardo"))) { // exit leonardo bootloader mode by restoring the serial port baudrate
                 //  target.AddCommandsAfterBuild(_T("python ~/.codeblocks/end_leonardo_bootmode.py ${UPLOAD_PORT} ${UPLOAD_BAUDRATE}"));
                 }

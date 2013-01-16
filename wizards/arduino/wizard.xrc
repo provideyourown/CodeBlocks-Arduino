@@ -83,39 +83,65 @@
 				<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
 				<border>5</border>
 				<object class="wxCheckBox" name="checkboxLss">
-					<label>Create extended listing file (.lss)</label>
-					<checked>0</checked>
+					<tooltip>This text file will show the assembly code interspersed by the source code statements. Can be used to understand code better for hand optimization.</tooltip>
+					<label>Create disassembly/extended listing file (.lss)</label>
+					<checked>1</checked>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<object class="wxCheckBox" name="checkboxArduinoLink">
+					<tooltip>Checking this will replace the default linker in the post-processor which is the link statement used by the ArduinoIDE. It results in a smaller code size and must be used to support ATtinys.</tooltip>
+					<label>Use Arduino Linker (recommended)</label>
+					<checked>1</checked>
 				</object>
 			</object>
 
+
+
 			<object class="sizeritem">
 				<option>0</option>
-				<flag>wxALL</flag>
+				<flag>wxEXPAND</flag>
 				<border>5</border>
-				<object class="wxStaticText" name="programmer_choice">
-					<tooltip>Specify a programmer when uploading to ATtiny chips</tooltip>
-					<label>Programmer used:</label>
-					<wrap>-1</wrap>
+				<object class="wxBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="programmer_choice">
+					    <tooltip>Specify a programmer when uploading to ATtiny chips. For Arduino, leave blank.</tooltip>
+					    <label>Programmer used:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP|wxEXPAND</flag>
+						<border>3</border>
+						<object class="wxComboBox" name="avr_programmer">
+					    <style>wxCB_DROPDOWN</style>
+					    <content>
+                <item>arduino</item>
+						    <item>avrisp</item>
+						    <item>avrispmkII</item>
+						    <item>usbtiny</item>
+						    <item>usbasp</item>
+                <item>buspirate</item>
+                <item>stk500</item>
+                <item>dasa</item>
+					    </content>
+						</object>
+					</object>
 				</object>
 			</object>
-			<object class="sizeritem">
-				<option>0</option>
-				<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
-				<border>5</border>
-				<object class="wxComboBox" name="avr_programmer">
-					<style>wxCB_DROPDOWN</style>
-					<content>
-            <item>arduino</item>
-						<item>avrisp</item>
-						<item>avrispmkII</item>
-						<item>usbtiny</item>
-						<item>usbasp</item>
-            <item>buspirate</item>
-            <item>stk500</item>
-            <item>dasa</item>
-					</content>
-				</object>
-			</object>
+
+
+
+
+
 
 
 			<object class="sizeritem">
@@ -128,21 +154,49 @@
 					<checked>1</checked>
 				</object>
 			</object>
+
+
+
+
 			<object class="sizeritem">
 				<option>0</option>
-				<flag>wxALL|wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+				<flag>wxALIGN_RIGHT</flag>
 				<border>5</border>
-				<object class="wxComboBox" name="uploadPort">
-					<style>wxCB_DROPDOWN</style>
-					<content>
-            <item>/dev/ttyACM0</item>
-						<item>/dev/ttyUSB0</item>
-						<item>/dev/ttyUSB1</item>
-						<item>/dev/ttyUSB2</item>
-						<item>/dev/ttyUSB3</item>
-					</content>
+				<object class="wxBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALL|wxALIGN_RIGHT</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="port_choice">
+					    <tooltip>This is the USB port used to upload your program. You can change this later under: Build Options/Custom Variables</tooltip>
+					    <label>Port:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxALIGN_RIGHT|wxALIGN_TOP</flag>
+						<border>3</border>
+						<object class="wxComboBox" name="uploadPort">
+					    <style>wxCB_DROPDOWN</style>
+							<value>/dev/ttyUSB0</value>
+					    <content>
+              <item>/dev/ttyACM0</item>
+              <item>/dev/ttyACM1</item>
+						  <item>/dev/ttyUSB0</item>
+						  <item>/dev/ttyUSB1</item>
+						  <item>/dev/ttyUSB2</item>
+						  <item>/dev/ttyUSB3</item>
+					    </content>
+						</object>
+					</object>
 				</object>
 			</object>
+
+
+
+
 			<object class="sizeritem">
 				<option>0</option>
 				<flag>wxEXPAND | wxALL</flag>
