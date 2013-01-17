@@ -27,6 +27,8 @@
 //    -- for Attiny boards, the protocol = programmer. This value is used for those boards
 //
 // Jan 15/2013:
+//  UPDATE: these changes have been disabled for now. The archive post-proc line does not know 
+//          about linked libraries, so it can't be used for anything but simple projects
 //  Fixed linker problem preventing correct code generation for ATtiny chips
 //    -- added option for Arduino compatible linking
 //    -- added second link that is the same as ArduinoIDE - smaller and correct for ATtiny
@@ -47,7 +49,7 @@ AvrLss <- false;         // produce extended list file from ELF output?
 AvrMap <- false;         // produce Symbol Map file from ELF output?
 AvrExtMem <- false;      // Locate .data in on-board SRAM, or external SRAM
 AvrExtMemAddr <- ""      // The external memory address
-AvrArduinoLink <- true;  // override default codeblocks link statement in the post-processor with the same as used by ArduinoIDE. Necessary for ATtiny support. Codesize is also smaller.
+AvrArduinoLink <- false;  // override default codeblocks link statement in the post-processor with the same as used by ArduinoIDE. Necessary for ATtiny support. Codesize is also smaller.
 BoardIndex <- 0;
 Board <- _T("");
 BaudRate <- _T("57600");
@@ -116,7 +118,7 @@ function OnLeave_processorChoice(fwd)
         AvrPort = Wizard.GetComboboxStringSelection(_T("uploadPort"));
         AvrMap = Wizard.IsCheckboxChecked(_T("checkboxMap"));
         AvrLss = Wizard.IsCheckboxChecked(_T("checkboxLss"));
-        AvrArduinoLink = Wizard.IsCheckboxChecked(_T("checkboxArduinoLink"));
+//        AvrArduinoLink = Wizard.IsCheckboxChecked(_T("checkboxArduinoLink"));
         AvrExtMem = Wizard.IsCheckboxChecked(_T("checkboxExtMem"));
         AvrExtMemAddr = Wizard.GetTextControlValue(_T("textctrlExtMem"));
 
@@ -206,18 +208,19 @@ function CreateTarget(project, targetName, processor, variant, protocol, baudrat
 		        pb_bin = _T("avr-objcopy -O binary -R .eeprom -R .eesafe $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).bin");
 		        
             // arduino linking commands		
-            // create the core library object
-		        if ( PLATFORM == PLATFORM_MSW ) // windoz
-              pb_ar = _T("avr-ar rcs .objs\\libcore.a  .objs\\cores/*.o");
-            else
-              pb_ar = _T("avr-ar rcs .objs/libcore.a  .objs/cores/*.o");
-            // do the link - this is from the Arduino command-line Make utility - https://github.com/sudar/Arduino-Makefile
-		        if ( PLATFORM == PLATFORM_MSW ) // windoz
-              pb_arlink = _T("avr-gcc -mmcu=attiny84 -Wl,--gc-sections -Os   -o $(TARGET_OUTPUT_FILE) .objs\\sketch.o .objs\\libcore.a  -lc -lm");
-            else
-              pb_arlink = _T("avr-gcc -mmcu=attiny84 -Wl,--gc-sections -Os   -o $(TARGET_OUTPUT_FILE) .objs/sketch.o .objs/libcore.a  -lc -lm");
-            
-
+            if (AvrArduinoLink)
+            {
+              // create the core library object
+		          if ( PLATFORM == PLATFORM_MSW ) // windoz
+                pb_ar = _T("avr-ar rcs .objs\\libcore.a  .objs\\cores/*.o");
+              else
+                pb_ar = _T("avr-ar rcs .objs/libcore.a  .objs/cores/*.o");
+              // do the link - this is from the Arduino command-line Make utility - https://github.com/sudar/Arduino-Makefile
+		          if ( PLATFORM == PLATFORM_MSW ) // windoz
+                pb_arlink = _T("avr-gcc -mmcu=attiny84 -Wl,--gc-sections -Os   -o $(TARGET_OUTPUT_FILE) .objs\\sketch.o .objs\\libcore.a  -lc -lm");
+              else
+                pb_arlink = _T("avr-gcc -mmcu=attiny84 -Wl,--gc-sections -Os   -o $(TARGET_OUTPUT_FILE) .objs/sketch.o .objs/libcore.a  -lc -lm");
+            }
 
 
 

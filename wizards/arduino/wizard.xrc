@@ -85,20 +85,21 @@
 				<object class="wxCheckBox" name="checkboxLss">
 					<tooltip>This text file will show the assembly code interspersed by the source code statements. Can be used to understand code better for hand optimization.</tooltip>
 					<label>Create disassembly/extended listing file (.lss)</label>
-					<checked>1</checked>
+					<checked>0</checked>
 				</object>
 			</object>
+      <!--
 			<object class="sizeritem">
 				<option>0</option>
 				<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
 				<border>5</border>
 				<object class="wxCheckBox" name="checkboxArduinoLink">
-					<tooltip>Checking this will replace the default linker in the post-processor which is the link statement used by the ArduinoIDE. It results in a smaller code size and must be used to support ATtinys.</tooltip>
-					<label>Use Arduino Linker (recommended)</label>
+					<tooltip>Checking this will replace the default linker in the post-processor which is the link statement used by the ArduinoIDE. It results in a smaller code size.</tooltip>
+					<label>Use Arduino Linker</label>
 					<checked>1</checked>
 				</object>
 			</object>
-
+      -->
 
 
 			<object class="sizeritem">
