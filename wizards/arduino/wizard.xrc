@@ -181,7 +181,7 @@
 						<border>3</border>
 						<object class="wxComboBox" name="uploadPort">
 					    <style>wxCB_DROPDOWN</style>
-							<value>/dev/ttyUSB0</value>
+							<!--despite being preselected, on GetComboStringSelection, it returns null <value>/dev/ttyUSB0</value>-->
 					    <content>
               <item>/dev/ttyACM0</item>
               <item>/dev/ttyACM1</item>

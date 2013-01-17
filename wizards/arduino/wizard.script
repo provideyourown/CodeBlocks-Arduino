@@ -44,7 +44,7 @@
 // Global Vars
 AvrProgrammer <- "";
 AvrUpload <- false;
-AvrPort <- ""
+AvrPort <- "ttyUSB0";
 AvrLss <- false;         // produce extended list file from ELF output?
 AvrMap <- false;         // produce Symbol Map file from ELF output?
 AvrExtMem <- false;      // Locate .data in on-board SRAM, or external SRAM
