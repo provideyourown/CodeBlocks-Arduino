@@ -365,6 +365,7 @@ function SetSimTarget(project, target)
 		target.AddCompilerOption(_T("-DARDUSIM"));
 		target.AddCompilerOption(_T("-DENABLE_API_NAME"));
 		target.AddCompilerOption(_T("-D__AVR_ATmega328P__"));
+    target.AddCompilerOption(_T("-DF_CPU=$(CPU_FREQ)"));
 		target.SetVar(_T("ARDUINO_DIR"), ArdusimDir, false);
     target.SetTargetType(ttConsoleOnly);
     target.SetTargetFilenameGenerationPolicy(tgfpPlatformDefault, tgfpNone);
