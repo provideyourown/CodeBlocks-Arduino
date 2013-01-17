@@ -339,12 +339,28 @@ function CreateTarget(project, targetName, processor, variant, protocol, baudrat
 								target.AddCompilerOption(_T("-Os"));
 						}
 
+// ArduinoIDE uses these cmds:
+
+//ArduinoIDE/Leonardo:
+//avrdude -C~/bin/arduino-1.0.1/hardware/tools/avrdude.conf -v -v -v -v -patmega32u4 -cavr109 -P/dev/ttyACM0 -b57600 -D -Uflash:w:/tmp/build54.tmp/sketch_jan17a.cpp.hex:i 
+
+//ArduinoIDE/Uno:
+//avrdude -C~/bin/arduino-1.0.1/hardware/tools/avrdude.conf -v -v -v -v -patmega328p -carduino -P/dev/ttyACM0 -b115200 -D -Uflash:w:/tmp/build54.tmp/sketch_jan17a.cpp.hex:i 
+
+//ArduinoIDE/ATtiny84:
+//avrdude -C~/bin/arduino-1.0.1/hardware/tools/avrdude.conf -v -v -v -v -pattiny84 -cusbasp -Pusb -Uflash:w:/tmp/build54.tmp/sketch_jan17a.cpp.hex:i 
+
+
+
 				    if (AvrUpload)
 				    {
                 if (variant.Matches(_T("leonardo"))) { // set leonardo into bootloader mode by lowering the baudrate
                 //  target.AddCommandsAfterBuild(_T("python ~/.codeblocks/start_leonardo_bootmode.py ${UPLOAD_PORT}"));
                 }
-				        target.AddCommandsAfterBuild(_T("avrdude -V -C /etc/avrdude.conf -p${MCU} -c${PROTOCOL} -P${UPLOAD_PORT} -b${UPLOAD_BAUDRATE} -Uflash:w:${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}.elf.hex:i"));
+                // for ATtiny chips, we need to erase the flash memory in order to upload; all others can use the -D option - not sure why
+                local cmd = (variant.Matches(_T("tinyX4")) || variant.Matches(_T("tinyX5")))? _T("avrdude ") : _T("avrdude -D ");
+                  
+				        target.AddCommandsAfterBuild(cmd + _T(" -V -C /etc/avrdude.conf -p${MCU} -c${PROTOCOL} -P${UPLOAD_PORT} -b${UPLOAD_BAUDRATE} -Uflash:w:${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}.elf.hex:i"));
                 if (variant.Matches(_T("leonardo"))) { // exit leonardo bootloader mode by restoring the serial port baudrate
                 //  target.AddCommandsAfterBuild(_T("python ~/.codeblocks/end_leonardo_bootmode.py ${UPLOAD_PORT} ${UPLOAD_BAUDRATE}"));
                 }
