@@ -60,6 +60,7 @@ Libs <- _T("");
 
 // directories
 ArduinoDir <- _T("$(HOME)/.codeblocks/arduino");
+SketchDir <- _T("$(HOME)/.codeblocks/sketches");
 HelpersDir <- _T("$(HOME)/.codeblocks/helpers");
 ArdusimDir <- _T("$(HOME)/.codeblocks/ardusim");
 
@@ -278,8 +279,11 @@ function CreateTarget(project, targetName, processor, variant, protocol, baudrat
 
 		       	target.AddIncludeDir(_T("$(ARDUINO_DIR)/hardware/arduino/cores/arduino"));
 						target.AddIncludeDir(_T("$(ARDUINO_DIR)/libraries"));
+            if (SketchesDir) {
+           		target.AddIncludeDir(_T("$(SKETCH_DIR)/hardware/attiny/variants/" + variant));
+            }
          		target.AddIncludeDir(_T("$(ARDUINO_DIR)/hardware/arduino/variants/" + variant));
-
+         		target.AddIncludeDir(_T("$(SKETCH_DIR)/libraries"));
 		
 		        // Project linker options
 		        target.AddLinkerOption(_T("-mmcu=$(MCU)"));
@@ -317,6 +321,7 @@ function CreateTarget(project, targetName, processor, variant, protocol, baudrat
 						target.SetVar(_T("UPLOAD_BAUDRATE"), baudrate, false);
 						target.SetVar(_T("UPLOAD_PORT"), AvrPort, false);
 						target.SetVar(_T("ARDUINO_DIR"), ArduinoDir, false);
+						target.SetVar(_T("SKETCH_DIR"), SketchDir, false);
             target.SetVar(_T("CPU_FREQ"), cpu_freq, false);
             target.SetVar(_T("MAX_SIZE"), max_size, false);
             target.SetVar(_T("MAX_SRAM"), max_sram, false);
@@ -446,12 +451,12 @@ function SetupProject(project)
 
 // Data taken from boards.txt, Arduino 1.0.1
 //                      Name                              chip name         variant                   protocol       upload rate   cpu speed         max_size      max_sram
-	CreateTarget(project, _T("Tiny84 @ 16MHz"),             _T("attiny84"),   _T("tinyX4"),             _T(""),        _T("19200"),  _T("16000000L"),  _T("8192"),   _T("512"));
-	CreateTarget(project, _T("Tiny84 @ 8MHz"),              _T("attiny84"),   _T("tinyX4"),             _T(""),        _T("19200"),  _T("8000000L"),   _T("8192"),   _T("512"));
-	CreateTarget(project, _T("Tiny84 @ 1MHz"),              _T("attiny84"),   _T("tinyX4"),             _T(""),        _T("19200"),  _T("1000000L"),   _T("8192"),   _T("512"));
-	CreateTarget(project, _T("Tiny85 @ 16MHz"),             _T("attiny85"),   _T("tinyX5"),             _T(""),        _T("19200"),  _T("16000000L"),  _T("8192"),   _T("512"));
-	CreateTarget(project, _T("Tiny85 @ 8MHz"),              _T("attiny85"),   _T("tinyX5"),             _T(""),        _T("19200"),  _T("8000000L"),   _T("8192"),   _T("512"));
-	CreateTarget(project, _T("Tiny85 @ 1MHz"),              _T("attiny85"),   _T("tinyX5"),             _T(""),        _T("19200"),  _T("1000000L"),   _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny84 @ 16MHz"),             _T("attiny84"),   _T("tiny14"),             _T(""),        _T("19200"),  _T("16000000L"),  _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny84 @ 8MHz"),              _T("attiny84"),   _T("tiny14"),             _T(""),        _T("19200"),  _T("8000000L"),   _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny84 @ 1MHz"),              _T("attiny84"),   _T("tiny14"),             _T(""),        _T("19200"),  _T("1000000L"),   _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny85 @ 16MHz"),             _T("attiny85"),   _T("tiny8"),             _T(""),        _T("19200"),  _T("16000000L"),  _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny85 @ 8MHz"),              _T("attiny85"),   _T("tiny8"),             _T(""),        _T("19200"),  _T("8000000L"),   _T("8192"),   _T("512"));
+	CreateTarget(project, _T("Tiny85 @ 1MHz"),              _T("attiny85"),   _T("tiny8"),             _T(""),        _T("19200"),  _T("1000000L"),   _T("8192"),   _T("512"));
 	CreateTarget(project, _T("ATmega328p @ 8MHz"),          _T("atmega328p"), _T("standard"),           _T(""),        _T("19200"),  _T("8000000L"),   _T("32768"),  _T("2048"));
 	CreateTarget(project, _T("ATmega328p @ 16MHz"),         _T("atmega328p"), _T("standard"),           _T(""),        _T("19200"),  _T("16000000L"),  _T("32768"),  _T("2048"));
 

@@ -1,4 +1,4 @@
-# CodeBlocks-Arduino (version: 1.0 beta)
+# CodeBlocks-Arduino (version: 1.0b2)
 
 > &copy; 2012-2013 Scott Daniels (<http://provideyourown.com>)
 > under GNU General Public License
@@ -32,24 +32,32 @@ In this folder place:
 
 1. A symlink to your Arduino directory. It must be named `arduino`. For example if your Arduino install is at: 
          
-        /home/bin/arduino1.0.1
+        /home/USER/bin/arduino1.0.3
     then use this command (from within `/home/USER/.codeblocks`):
 
-        $ln -s /home/bin/arduino1.0.1 arduino
+        $ln -s /home/USER/bin/arduino1.0.3 arduino
 
-2. Copy the `helpers` directory to the `codeblocks` folder (or 'symlink' it)
+2. A symlink to your Sketches directory. It must be named `sketches`. For example if your Sketches directory is at: 
+         
+        /home/USER/mySketches
+    then use this command (from within `/home/USER/.codeblocks`):
 
-3. There should be the following folder path: 
+        $ln -s /home/USER/mySketches sketches
+
+3. Copy the `helpers` directory to the `codeblocks` folder (or 'symlink' it)
+
+4. There should be the following folder path: 
 
         /share/codeblocks/templates/wizard
     If there is not, then create it. The copy the folder `/wizards/arduino` to the wizard folder.
 
-4. Copy the `default.conf` file
+5. Copy the `default.conf` file
 
 
 When you are done, your data folder should look like the following:
 
-        arduino -> /home/scott/bin/arduino-1.0.1
+        arduino -> /home/USER/bin/arduino-1.0.3
+        sketches -> /home/USER/mySketches
         default.conf
         helpers
         share
@@ -148,8 +156,15 @@ To change the port for a board, then go to the *Project/Build options...* and se
 ##Future Plans
 1. Fix known issues
 2. Do more with command-line make tool?
+3. Make sketch.cpp file more compatible with the ArduinoIDE sketch.ino file (eliminate the need for both) when using either IDE.
 
 ## Changelog
+### 8/18/13 - directory includes improvements:
+
+* Improved various directory includes:
+    * The hardware directory for ATTiny support is now located in the sketches directory as per standard ArduinoIDE location. You can get support for most ATTiny chips here - <https://github.com/provideyourown/attiny.git>
+    * The libraries directory for your sketches is now included by default. Libraries can now be included by name only without specifying a relative path - just like the ArduinoIDE.
+
 ### 1/17/13 - bug fixes; Tools menu changes:
 
 * Tools Menu:
